@@ -14,6 +14,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
 	<link rel="stylesheet" href="min-css/layout.min.css">
+	<link rel="shortcut icon" href="img/favicon.png" />
 </head>
 <body>
 <div class="main-header wow fadeIn" id="home">
