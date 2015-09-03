@@ -49,7 +49,7 @@
 	</div>
 </div>
 
-<!-- ======= Slider Menu on Mobile ========= -->
+		<!-- ======= Slider Menu on Mobile ========= -->
 		<nav id="slide-menu">
 			  <ul>
 			  	<h1 class="orange-title wow fadeInLeft"><i class="fa fa-tasks"></i>MAIN MENU</h1>
@@ -113,6 +113,17 @@
 				</div>
 			</div>
 		</div>
+
+	<!-- ==========Side Circle Selectors ========== -->
+	<div class="circle-selectors">
+		<ul class="circles">
+			<li> <a href="#home"> <div class="dots"></div> </a></li>
+			<li> <a href="#works"> <div class="dots"></div></a></li>
+			<li> <a href="#about"> <div class="dots"></div></a></li>
+			<li> <a href="#contact"> <div class="dots"></div></a></li>
+		</ul>
+	</div>
+	<!-- ==========Side Circle Selectors ========== -->
 
 		<div id="works" class="sharped-bg">
 			<div class="w960 grid">
