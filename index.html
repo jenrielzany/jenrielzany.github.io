@@ -256,7 +256,7 @@
 				</p>
 
 				<p class="abt-par cntr wow fadeIn" data-wow-delay=".3s">
-					vI have worked for a long time with designing. I have not read a lot but I have done many designs not knowing the concepts and principles of some elements of designing. It took me a while to decide to read these stuffs and learned a lot the principles of designing and techniques. 
+					I have worked for a long time with designing. I have not read a lot but I have done many designs not knowing the concepts and principles of some elements of designing. It took me a while to decide to read these stuffs and learned a lot the principles of designing and techniques. 
 				</p>
 			</div>
 
