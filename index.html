@@ -16,14 +16,14 @@
 	<link rel="stylesheet" href="min-css/layout.min.css">
 </head>
 <body>
-<div class="main-header wow fadeIn">
+<div class="main-header wow fadeIn" id="home">
 	<div class="main-mnu">
 		<div class="w960 grid">
 			<ul class="mnu">
-				<li> Home </li>
-				<li> Works </li>
-				<li> About Me </li>
-				<li> Contact </li>
+				<li> <a href="#home">Home </a></li>
+				<li> <a href="#works">Works </a></li>
+				<li> <a href="#about">About </a></li>
+				<li> <a href="#contact">Contact </a></li>
 			</ul>
 		</div>
 
@@ -53,10 +53,10 @@
 		<nav id="slide-menu">
 			  <ul>
 			  	<h1 class="orange-title wow fadeInLeft"><i class="fa fa-tasks"></i>MAIN MENU</h1>
-				  <li class="wow fadeInLeft" data-wow-delay=".3s"> <a href="index.php"><i class="fa fa-home"></i>Home</a> </li>
-					<li class="wow fadeInLeft" data-wow-delay=".5s"> <a href="how-it-works.php"><i class="fa fa-rocket"></i> Works</a> </li>
-					<li class="wow fadeInLeft" data-wow-delay=".7s"> <a href="why-go-solar.php"><i class="fa fa-soccer-ball-o"></i>About Me</a> </li>
-					<li class="wow fadeInLeft" data-wow-delay="1s"> <a href="save-money.php"><i class="fa fa-phone-square"></i>Contact</a> </li>
+			  		<li class="wow fadeInLeft" data-wow-delay=".3s"> <a href="#home"><i class="fa fa-home"></i>Home</a> </li>
+					<li class="wow fadeInLeft" data-wow-delay=".5s"> <a href="#works"><i class="fa fa-rocket"></i> Works</a> </li>
+					<li class="wow fadeInLeft" data-wow-delay=".7s"> <a href="#about"><i class="fa fa-soccer-ball-o"></i>About Me</a> </li>
+					<li class="wow fadeInLeft" data-wow-delay="1s"> <a href="#contact"><i class="fa fa-phone-square"></i>Contact</a> </li>
 			  </ul>
 			</nav>
 			<!-- Content panel -->
@@ -114,7 +114,7 @@
 			</div>
 		</div>
 
-		<div class="sharped-bg">
+		<div id="works" class="sharped-bg">
 			<div class="w960 grid">
 				<div class="row">
 					<h1 class="section-hdrs wow fadeInUp"> MY WORKS </h1>
@@ -225,7 +225,7 @@
 
 	
 
-	<div class="about-section">
+	<div class="about-section" id="about">
 		<div class="w960 grid">
 			<h3 class="abt-hdr wow fadeIn"> ABOUT ME </h3>
 			
@@ -299,7 +299,7 @@
 		</div>
 	</div>
 
-	<div class="ftr">
+	<div class="ftr" id="contact">
 		<div class="w960 grid">
 			<div class="c7 clear">
 				<p class="ftr-par wow fadeIn"> Copyright &copy; 2015. Zany Graphics &amp; Designs. All Rights Reserved.</p>
@@ -313,6 +313,7 @@
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<script src="js/slide.js"></script>
 	<script src="js/wow.min.js"></script>
+	<script src="js/plugins.js"></script>
 	<script>
 	 new WOW().init();
 	</script>
