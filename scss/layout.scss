@@ -338,6 +338,7 @@ button.hdr-btn {
 	transition: all .3s ease-in-out;
 	-webkit-transition: all .3s ease-in-out;
 	-moz-transition: all .3s ease-in-out;
+	outline: none;
 
 	&:hover {
 		background:#bf4ee9;
