@@ -163,6 +163,7 @@ div#content div.menu-trigger {
   -moz-transition: all 400ms;
   -webkit-transition: all 400ms;
   transition: all 400ms;
+  z-index: 1;
 }
 
 
@@ -170,11 +171,12 @@ div#content div.menu-trigger {
 div.menu-trigger .icon-bar{
   width: 28px;
   height: 4px;
-  background-color: #fff;
+  background-color: #AAA;
   display: block;
   position: relative;
   -webkit-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
+
 }
 
 div.menu-trigger .icon-bar + .icon-bar{
@@ -396,21 +398,26 @@ ul.mnu {
 }
 
 ul.mnu li {
-	padding: 10px 30px;
-	color: $light-txt;
 	display: inline;
-	font-size: 12px;
-	text-transform: uppercase;
-	transition: all .3s ease-in-out;
-	-webkit-transition: all .3s ease-in-out;
-	-moz-transition: all .3s ease-in-out;
-	font-family: $header-font;
 
-	&:hover {
-		color: #f17c36;
-		cursor: pointer;
-		font-size: $bld;
+	& a {
+		text-decoration: none;
+		padding: 10px 30px;
+		color: $light-txt;
+		font-size: 12px;
+		text-transform: uppercase;
+		transition: all .3s ease-in-out;
+		-webkit-transition: all .3s ease-in-out;
+		-moz-transition: all .3s ease-in-out;
+		font-family: $header-font;
+
+		&:hover {
+			color: #f17c36;
+			cursor: pointer;
+			font-size: $bld;
+		}
 	}
+
 }
 
 ul.lhd {
