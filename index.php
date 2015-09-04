@@ -241,7 +241,7 @@
 						<div class="c6">
 							<p class="cntr"> 
 								<a href="http://behance.net/zanygd" target="_blank">
-									<button class="view-more"> VIEW MORE PROJECTS +v </button>
+									<button class="view-more"> VIEW MORE PROJECTS + </button>
 								</p>
 							</a>
 						</div>
