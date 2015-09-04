@@ -267,11 +267,18 @@
 				<p class="job wow fadeIn"> Junior Web Designer </p>
 
 				<p class="abt-par cntr wow fadeIn">
-					I have worked for a long time with designing. I have not read a lot but I have done many designs not knowing the concepts and principles of some elements of designing. It took me a while to decide to read these stuffs and learned a lot the principles of designing and techniques. 
+					My passion is in Arts and Music. When I was introduced to Music I fell in love with it throught playing Guitar.
+					Guitar is one of the things that comforts me when I'm alone and nobody to talk to. One day I just knew I was in a
+					band and played variety of Music in different locations around Cebu. So, yea! I love Music.
 				</p>
 
 				<p class="abt-par cntr wow fadeIn" data-wow-delay=".3s">
-					I have worked for a long time with designing. I have not read a lot but I have done many designs not knowing the concepts and principles of some elements of designing. It took me a while to decide to read these stuffs and learned a lot the principles of designing and techniques. 
+					When I was little, like in 3rd Grade. I love sketching stuffs and create amazing stuffs. In my high school days, I 
+					am the only representative for Poster Making Contest during school competitions and I made it to Nationals but didn't bring
+					home the trophie. I learned Web Development/Designing when I was in 3rd Grade in College. I was introduced to Networking and 
+					finally to HTML/CSS3 and Wordpress. I fell inlove with it. From there, I enhanced my skills and able to reach what I am now. I 
+					am not satisfied of what's my know how about front-end development right now. I will keep searching and learning different skills 
+					for a better future and pasture! Cheers to all! 
 				</p>
 			</div>
 
