@@ -55,6 +55,22 @@ body {
 .blue {color: #2fbde1 !important;}
 .orange {color: #e15d2f !important;}
 
+/* Animations */
+.spin {
+	padding:0;
+	margin:0;
+	transition: all .5s ease-in-out;
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	cursor: pointer;
+
+	&:hover {
+		transform: rotate(360deg);
+		-webkit-transform: rotate(360deg);
+		-moz-transform: rotate(360deg);
+	}
+}
+
 
 // Circle Selectors
 

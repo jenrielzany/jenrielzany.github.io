@@ -259,7 +259,7 @@
 			<div class="c2"></div>
 
 			<div class="c8">
-				<p class="cntr wow fadeIn">
+				<p class="cntr spin wow fadeIn">
 					<img src="img/about-img.png" alt="">
 				</p>
 
