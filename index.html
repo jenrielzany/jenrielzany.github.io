@@ -348,6 +348,7 @@
 	<script src="js/slide.js"></script>
 	<script src="js/wow.min.js"></script>
 	<script src="js/plugins.js"></script>
+	<script src="js/smoothscroll.js"></script>
 	<script>
 	 new WOW().init();
 	</script>
