@@ -5,7 +5,7 @@ $(document).ready(function(){
 	$('a[href^="#"]').click(function(event) {
 		var id = $(this).attr("href");
 		var target = $(id).offset().top;
-		$('html, body').animate({scrollTop:target}, 500);
+		$('html, body').animate({scrollTop:target}, 1000);
 		event.preventDefault();
 	});
 
