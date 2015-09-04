@@ -107,7 +107,7 @@
 							<div class="desc-con">
 								<h5 class="hdr-how pink"> RIGHT ON TIME </h5>
 								<p class="how-par">
-									I can finish projects right/before the time you expected it to get done! You will never see it
+									I can finish projects right before the time you expected it to get done! You will never see it
 									coming and just get surprised how things happen so fast! <span class="pink">Wink!</span>
 								</p>
 							</div>
@@ -241,7 +241,7 @@
 						<div class="c6">
 							<p class="cntr"> 
 								<a href="http://behance.net/zanygd" target="_blank">
-									<button class="view-more"> VIEW MORE PROJECTS </button>
+									<button class="view-more"> VIEW MORE PROJECTS +v </button>
 								</p>
 							</a>
 						</div>
