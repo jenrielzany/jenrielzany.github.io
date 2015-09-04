@@ -27,6 +27,10 @@
 
 	/* Tablet Portrait size to standard 960 (devices and browsers) */
 	@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+		.circle-selectors {
+			visibility: hidden;
+		}
 		
 		ul.mnu {
 			visibility: hidden;
@@ -54,6 +58,10 @@
 	/* All Mobile Sizes (devices and browser) */
 	@media only screen and (min-width: 640px) and (max-width: 767px) {
 
+		.circle-selectors {
+			visibility: hidden;
+		}
+
 		ul.mnu {
 			visibility: hidden;
 		}
@@ -79,6 +87,10 @@
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 	@media only screen and (min-width: 480px) and (max-width: 767px) {
 
+		.circle-selectors {
+			visibility: hidden;
+		}
+
 		ul.mnu {
 			visibility: hidden;
 		}
@@ -102,6 +114,10 @@
 	}
 
 	@media only screen and (min-width: 320px) and (max-width: 479px) {
+
+		.circle-selectors {
+			visibility: hidden;
+		}
 
 		ul.mnu {
 			visibility: hidden;

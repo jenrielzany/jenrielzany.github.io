@@ -85,9 +85,10 @@
 
 						<div class="c8 clear wow fadeInUp" data-wow-delay=".3s">
 							<div class="desc-con">
-								<h5 class="hdr-how"> HIGH QUALITY</h5>
+								<h5 class="hdr-how orange"> HIGH QUALITY</h5>
 								<p class="how-par">
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus iure maiores, sapiente at dolores! Porro ipsam quaerat.
+									I deliver top of the line products that you will surely like! You can expect high quality designs that meets your expectations towards your
+									project. <span class="orange">Cheers!</span>
 								</p>
 							</div>
 						</div>
@@ -104,9 +105,10 @@
 
 						<div class="c8 clear wow fadeInUp" data-wow-delay=".3s">
 							<div class="desc-con">
-								<h5 class="hdr-how"> RIGHT ON TIME </h5>
+								<h5 class="hdr-how pink"> RIGHT ON TIME </h5>
 								<p class="how-par">
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus iure maiores, sapiente at dolores! Porro ipsam quaerat.
+									I can finish projects right/before the time you expected it to get done! You will never see it
+									coming and just get surprised how things happen so fast! <span class="pink">Wink!</span>
 								</p>
 							</div>
 						</div>
@@ -132,13 +134,17 @@
 					<h1 class="section-hdrs wow fadeInUp"> MY WORKS </h1>
 					<div class="works-con">
 						<div class="c6 wow fadeInUp">
-							<h1 class="works-hdr"> GREENWIRE UNIFIED CUSTOMER MANAGEMENT APP.</h1>
+							<h1 class="works-hdr orange"> GREENWIRE UNIFIED CUSTOMER MANAGEMENT APP.</h1>
 							<p>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut beatae non in dolor blanditiis harum facilis, repellendus sequi, autem debitis inventore doloribus iusto libero vero ut tenetur, ducimus iure iste?
+								<span class="green">Greenwire</span> is currently building an app for their <span class="orange">Call Center Agents</span>. The main function of the app is that
+								agents are able to know and get updates of their performance in the company. How many absences, lates, and leaves
+								available left within a year.
 							</p>
 
 							<p>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut beatae non in dolor blanditiis harum facilis, repellendus sequi, autem debitis inventore doloribus iusto libero vero ut tenetur, ducimus iure iste?
+								The app also offers variety of functions and helps Human Resource to handle different kinds of cases that
+								are painful to do manualy. In this app, agents are aware who are the <span class="orange">Top Sellers</span> and how much <span class="pink">Incentives</span>
+								is on the line.
 							</p>
 
 							<a href="https://www.behance.net/gallery/29179505/Greenwire-Outsourcing-Inc-Internal-Dashboard" target="_blank">
@@ -155,13 +161,17 @@
 				<div class="row">
 					<div class="works-con">
 						<div class="c6 wow fadeInUp">
-							<h1 class="works-hdr"> GREENWIRE UNIFIED CUSTOMER MANAGEMENT APP.</h1>
+							<h1 class="works-hdr green"> SOLAR SAVINGS USA.COM </h1>
 							<p>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut beatae non in dolor blanditiis harum facilis, repellendus sequi, autem debitis inventore doloribus iusto libero vero ut tenetur, ducimus iure iste?
+								This is a project collaborated with me by <span class="blue">Verticalops</span>. <span class="green">
+								Solar Savings USA.com</span> offers free installations
+								of Solar Panels and Zero(0) maintenance. This helps a lot regarding how much you pay for your electricity 
+								bills and how it affects your life.
 							</p>
 
 							<p>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut beatae non in dolor blanditiis harum facilis, repellendus sequi, autem debitis inventore doloribus iusto libero vero ut tenetur, ducimus iure iste?
+								Solar Savings USA.com is one the best firms in United States of America that offers this kind
+								of services that allows you to Save Money and to be your <span class="green">Own Electric Company</span>.
 							</p>
 
 							<a href="http://solarsavingsusa.com" target="_blank">
@@ -178,13 +188,16 @@
 				<div class="row">
 					<div class="works-con">
 						<div class="c6 wow fadeInUp">
-							<h1 class="works-hdr"> GREENWIRE MONGGOS</h1>
+							<h1 class="works-hdr blue"> ZANY GRAPHICS &amp; DESIGNS LOGO v2.0</h1>
 							<p>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut beatae non in dolor blanditiis harum facilis, repellendus sequi, autem debitis inventore doloribus iusto libero vero ut tenetur, ducimus iure iste?
+								This logo is a product of deep thinking in the <span class="green">Comfort Room</span>. I came up with a variety of 
+								<span class="orange">Design Combinations</span> but it ddn't work. This one worked for me and relates to what I do and what I am as a
+								Designer.
 							</p>
 
 							<p>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut beatae non in dolor blanditiis harum facilis, repellendus sequi, autem debitis inventore doloribus iusto libero vero ut tenetur, ducimus iure iste?
+								<span class="blue">Color Palletes</span> and other stuffs are documented in my behance account. There, you can see what
+								color I used and what are the other elements that helped me to create this logo.
 							</p>
 
 							<a href="https://www.behance.net/gallery/29022615/Zany-Logo-Revision-20" target="_blank">
@@ -201,13 +214,15 @@
 				<div class="row">
 					<div class="works-con">
 						<div class="c6 wow fadeInUp">
-							<h1 class="works-hdr"> GREENWIRE MONGGOS</h1>
+							<h1 class="works-hdr pink"> X.COM ONLINE PORTFOLIO</h1>
 							<p>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut beatae non in dolor blanditiis harum facilis, repellendus sequi, autem debitis inventore doloribus iusto libero vero ut tenetur, ducimus iure iste?
+								X.com is an online portfolio that lets designers upload their designs can be seen by other designers
+								around the globe. You can also <span class="pink">"Love"</span> a design by click the "Love" button and "Follow" the artist
+								you admire!
 							</p>
 
 							<p>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut beatae non in dolor blanditiis harum facilis, repellendus sequi, autem debitis inventore doloribus iusto libero vero ut tenetur, ducimus iure iste?
+								This is just a mockup design and not live yet. You can check the design on Behance.
 							</p>
 
 							<a href="https://www.behance.net/gallery/16394475/Xcom" target="_blank">

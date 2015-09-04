@@ -49,6 +49,13 @@ body {
 	font-family: $main-font;
 }
 
+/* Custom Colors */
+.pink {color: #dd4061 !important;}
+.green {color: #69ae17 !important;}
+.blue {color: #2fbde1 !important;}
+.orange {color: #e15d2f !important;}
+
+
 // Circle Selectors
 
 .circle-selectors {
@@ -59,7 +66,6 @@ body {
     top: 16pc;
     right: 2pc;
 	z-index: 100;
-
 }
 
 ul.circles {
@@ -71,17 +77,35 @@ ul.circles {
 
 	li {
 
+		.active{
+			.dots{
+				transform: scale(1.5);
+				-moz-transform: scale(1.5);
+				-webkit-transform: scale(1.5);
+				border-color: #fff !important;
+			}
+		}
+
+		.dots{
+			transform: scale(1);
+			-moz-transform: scale(1);
+			-webkit-transform: scale(1);
+
+			&:hover{
+				transform: scale(2);
+				-moz-transform: scale(2);
+				-webkit-transform: scale(2);
+			}
+		}
+
 		&:nth-child(2) {
 		 .dots {
 			background: #72c114;
 			border: 2px solid #38620a;
 
-				 &:hover {
+				 &:hover{
 				 	border: 3px solid #fff;
 					background: #38620a;
-					transform: scale(1.1);
-					-moz-transform: scale(1.1);
-					-webkit-transform: scale(1.1);
 				 }
 		 	}
 		}
@@ -91,12 +115,9 @@ ul.circles {
 			background: #c234e1;
 			border: 2px solid #a1127a;
 
-				 &:hover {
+				 &:hover{
 				 	border: 3px solid #fff;
 					background: #a1127a;
-					transform: scale(1.1);
-					-moz-transform: scale(1.1);
-					-webkit-transform: scale(1.1);
 				 }
 		 	}
 		}
@@ -106,12 +127,9 @@ ul.circles {
 			background: #20f39c;
 			border: 2px solid #387ced;
 
-				 &:hover {
+				 &:hover{
 				 	border: 3px solid #fff;
 					background: #387ced;
-					transform: scale(1.1);
-					-moz-transform: scale(1.1);
-					-webkit-transform: scale(1.1);
 				 }
 		 	}
 		}
@@ -129,7 +147,7 @@ ul.circles {
 	-webkit-transition: all .3s ease-in-out;
 	-moz-transition: all .3s ease-in-out;
 
-	&:hover {
+	&:hover, &.active {
 	 	border: 3px solid #fff;
 		background: #c53716;
 		transform: scale(1.1);
@@ -631,6 +649,13 @@ p.hdr-par {
 	margin:0;
 }
 
+p.how-par {
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #888;
+    margin:0 !important;
+}
+
 p.job {
 	font-size: 10px;;
 	font-family: $main-font;
@@ -656,6 +681,10 @@ p.ftr-cntc {
 	text-align: right;
 }
 
+p.cntr {
+	text-align: center;
+}
+
 i {
 	color: #fff;
 	margin:0 2px;
@@ -663,10 +692,6 @@ i {
 
 i.abt-lhd {
 	font-size: 30px;
-}
-
-p.cntr {
-	text-align: center;
 }
 
 
