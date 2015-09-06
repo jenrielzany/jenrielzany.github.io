@@ -34,6 +34,10 @@ $bld: bold;
 	font-family: $main-font;
 }
 
+a {
+	text-decoration: none;
+}
+
 ::selection {
   background: #fe8a44; /* WebKit/Blink Browsers */
   color:#fff;
@@ -54,6 +58,10 @@ body {
 .green {color: #69ae17 !important;}
 .blue {color: #2fbde1 !important;}
 .orange {color: #e15d2f !important;}
+.black {color: #000 !important;}
+.white {color: #FFF !important;}
+.red {color: #e82828 !important;}
+.purple {color: #c628e8 !important;}
 
 /* Animations */
 .spin {
@@ -363,7 +371,7 @@ body.menu-active div#content .menu-trigger {
 button.hdr-btn {
 	border-radius: 50px;
 	border:2px solid #c85713;
-	padding: 15px 50px;;
+	padding: 12px 50px;;
 	text-align: center;
 	color: $light-txt;
 	font-size: $pars-size;
@@ -378,6 +386,27 @@ button.hdr-btn {
 	&:hover {
 		background:#bf4ee9;
 		border:2px solid #a640cc;
+	}
+}
+
+button.hdr-btn-contact {
+	border-radius: 50px;
+	border:2px solid #50a31d;
+	padding: 12px 50px;;
+	text-align: center;
+	color: $light-txt;
+	font-size: $pars-size;
+	font-family: $header-font;
+	background: #5fbe26;
+	margin-top: 20px;
+	transition: all .3s ease-in-out;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	outline: none;
+
+	&:hover {
+		background:#53d1af;
+		border:2px solid #34ac8c;
 	}
 }
 
@@ -517,7 +546,7 @@ button.view-more {
 ul.mnu {
 	margin:0;
 	padding:0;
-	text-align: center;
+	text-align: right;
 	list-style-type: none;
 	background: none;
 }
@@ -527,7 +556,7 @@ ul.mnu li {
 
 	& a {
 		text-decoration: none;
-		padding: 10px 30px;
+		padding: 10px 15px;
 		color: $light-txt;
 		font-size: 12px;
 		text-transform: uppercase;
@@ -647,15 +676,17 @@ h5.hdr-how {
 }
 
 h5.nme {
-	font-size: $pars-size;
+	font-size: 13px;
 	color: $light-txt;
 	font-family: $main-font;
+	text-transform: uppercase;
+	letter-spacing: 3px;
 	margin:0;
 	text-align: center;
 }
 
 p.abt-par {
-	font-size: 12px;
+	font-size: 13px;
 	color: $light-txt;
 }
 
@@ -702,6 +733,42 @@ p.ftr-cntc {
 
 p.cntr {
 	text-align: center;
+}
+
+p.ui-ux {
+	font-size: 14px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #fff;
+	line-height:15px;
+	text-align: center;
+	margin-top:0;
+}
+
+span {
+	font-size: 10px;
+	font-weight: $bld;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+span.lnks {
+	font-size: 12px;
+	font-weight: $bld;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	display: inline;
+	padding: 5px;
+	margin: 0 5px;
+	background: #e1651a;
+	border-radius: 50px;
+	transition: all .3s ease-in-out;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+
+	&:hover {
+		background: #5fbe26;
+	}
 }
 
 i {
