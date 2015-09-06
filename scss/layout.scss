@@ -397,31 +397,31 @@ button.works-btn {
 	outline: none;
 
 	&:hover {
-		background: #e1651a;
-		border:2px solid #c85713;
+		background: #444;
+		border:2px solid #444;
 		color: $light-txt;
 	}
 }
 
 button.view-more {
 	border-radius: 50px;
-	border:2px solid #c85713;
-	padding: 10px 50px;;
+	border:2px solid #444;
+	padding: 12px 50px;;
 	text-align: center;
-	color: $light-txt;
+	color: #444;
 	font-size: $pars-size;
 	font-family: $header-font;
-	background: #e1651a;
+	background: none;
 	margin-top: 20px;
-	width: 90%;
+	width: 70%;
 	transition: all .3s ease-in-out;
 	-webkit-transition: all .3s ease-in-out;
 	-moz-transition: all .3s ease-in-out;
 
 	&:hover {
-		background:#bf4ee9;
-		border:2px solid #a640cc;
-		width: 100%;
+		background:#444;
+		border:2px solid #444;
+		color: $light-txt;
 	}
 }
 
@@ -450,7 +450,7 @@ button.view-more {
 .how {
 	background: url('../img/how-i-do-it-bg.jpg') center top no-repeat;
 	background-size: cover;
-	padding: 35px 0;
+	padding: 120px 0;
 	overflow: hidden;
 }
 
@@ -575,13 +575,14 @@ h1.hdr-ttle {
 }
 
 h1.section-hdrs{
-	font-size: 35px;
+	font-size: 20px !important;
 	font-family: $header-font;
 	line-height: 40px;
 	text-align: center;
 	font-size: bold;
 	color: $grey-bg;
 	margin-bottom: 40px;
+	letter-spacing: 3px;
 
 	&:after {
 		content: " ";
@@ -593,7 +594,7 @@ h1.section-hdrs{
 }
 
 h1.works-hdr {
-	font-size: 20px;
+	font-size: 15px;
 	font-family: $header-font;
 	line-height: 20px;
 	color: $grey-bg;
@@ -639,7 +640,7 @@ h4.cat {
 }
 
 h5.hdr-how {
-	font-size: $sub-header-size;
+	font-size: 15px;;
 	color: $grey-bg;
 	font-family: $header-font;
 	margin:0;
