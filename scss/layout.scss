@@ -4,6 +4,7 @@
 @import 'fonts';
 @import 'responsive';
 @import 'site';
+@import 'mixins';
 
 /* ========= Typography =========*/
 
@@ -67,9 +68,7 @@ body {
 .spin {
 	padding:0;
 	margin:0;
-	transition: all .5s ease-in-out;
-	-webkit-transition: all .5s ease-in-out;
-	-moz-transition: all .5s ease-in-out;
+	@include transition(all 500ms ease-in-out);
 	cursor: pointer;
 
 	&:hover {
@@ -167,9 +166,7 @@ ul.circles {
 	background: #f17c36;
 	margin:30px 0;
 	border: 2px solid #c53716;
-	transition: all .3s ease-in-out;
-	-webkit-transition: all .3s ease-in-out;
-	-moz-transition: all .3s ease-in-out;
+	@include transition(all 300ms ease-in-out);
 
 	&:hover, &.active {
 	 	border: 3px solid #fff;
@@ -210,9 +207,7 @@ nav#slide-menu > ul li {
   padding: 12px 0;
   cursor: pointer;
   text-transform: uppercase;
-  -moz-transition: all 300ms ease-in-out;
-  -webkit-transition: all 300ms ease-in-out;
-  transition: all 300ms ease-in-out;
+  @include transition(all 300ms ease-in-out);
   text-decoration: none;
   letter-spacing: 1px;
   border-bottom: 1px solid #222;
@@ -222,9 +217,7 @@ nav#slide-menu > ul li a {
   font-family: $header-font;
   color: #fff;
   font-size: 14px;
-  -moz-transition: all 300ms ease-in-out;
-  -webkit-transition: all 300ms ease-in-out;
-  transition: all 300ms ease-in-out;
+  @include transition(all 300ms ease-in-out);
   text-decoration: none;
 
   &:before {
@@ -246,12 +239,18 @@ nav#slide-menu > ul li a {
 
 
   &:hover {
-	  	color: #f17c36;
 	  	letter-spacing: 4px;
+
+
+	  	&, i {
+	  	color: #f17c36;
+	  		@include transition(all 300ms ease-in-out);
+	  	}
 	  }
 
 	& i {
 		margin-right:5px;
+		@include transition(all 300ms ease-in-out);
 	}
 }
 nav#slide-menu > ul li.sep {
@@ -279,9 +278,7 @@ div#content {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  -moz-transition: all 300ms;
-  -webkit-transition: all 300ms;
-  transition: all 300ms;
+  @include transition(all 300ms ease-in-out);
 }
 
 div#content div.menu-trigger {
@@ -306,8 +303,7 @@ div.menu-trigger .icon-bar{
   background-color: #AAA;
   display: block;
   position: relative;
-  -webkit-transition: all .4s ease-in-out;
-  transition: all .4s ease-in-out;
+  @include transition(all 400ms ease-in-out);
 
 }
 
@@ -378,9 +374,7 @@ button.hdr-btn {
 	font-family: $header-font;
 	background: #e1651a;
 	margin-top: 20px;
-	transition: all .3s ease-in-out;
-	-webkit-transition: all .3s ease-in-out;
-	-moz-transition: all .3s ease-in-out;
+	@include transition(all 300ms ease-in-out);
 	outline: none;
 
 	&:hover {
@@ -403,9 +397,7 @@ button.hdr-btn-contact {
 	font-family: $header-font;
 	background: #5fbe26;
 	margin-top: 20px;
-	transition: all .3s ease-in-out;
-	-webkit-transition: all .3s ease-in-out;
-	-moz-transition: all .3s ease-in-out;
+	@include transition(all 300ms ease-in-out);
 	outline: none;
 
 	&:hover {
@@ -428,9 +420,7 @@ button.works-btn {
 	font-family: $header-font;
 	background: none;
 	margin-top: 20px;
-	transition: all .3s ease-in-out;
-	-webkit-transition: all .3s ease-in-out;
-	-moz-transition: all .3s ease-in-out;
+	@include transition(all 300ms ease-in-out);
 	outline: none;
 
 	&:hover {
@@ -451,9 +441,7 @@ button.view-more {
 	background: none;
 	margin-top: 20px;
 	width: 70%;
-	transition: all .3s ease-in-out;
-	-webkit-transition: all .3s ease-in-out;
-	-moz-transition: all .3s ease-in-out;
+	@include transition(all 300ms ease-in-out);
 
 	&:hover {
 		background:#444;
@@ -502,9 +490,7 @@ button.view-more {
 	margin:0;
 	overflow: hidden;
 	cursor: pointer;
-	transition: all .3s ease-in-out;
-	-webkit-transition: all .3s ease-in-out;
-	-moz-transition: all .3s ease-in-out;
+	@include transition(all 300ms ease-in-out);
 
 	&:hover {
 		transform: rotate(360deg);
@@ -518,9 +504,7 @@ button.view-more {
 	overflow: hidden;
 
 	& img {
-		transition: all .3s ease-in-out;
-		-webkit-transition: all .3s ease-in-out;
-		-moz-transition: all .3s ease-in-out;
+		@include transition(all 300ms ease-in-out);
 		cursor: pointer;
 
 		&:hover {
@@ -568,9 +552,7 @@ ul.mnu li {
 		color: $light-txt;
 		font-size: 12px;
 		text-transform: uppercase;
-		transition: all .3s ease-in-out;
-		-webkit-transition: all .3s ease-in-out;
-		-moz-transition: all .3s ease-in-out;
+		@include transition(all 300ms ease-in-out);
 		font-family: $header-font;
 
 		&:hover {
@@ -770,9 +752,7 @@ span.lnks {
 	margin: 0 5px;
 	background: #e1651a;
 	border-radius: 50px;
-	transition: all .3s ease-in-out;
-	-webkit-transition: all .3s ease-in-out;
-	-moz-transition: all .3s ease-in-out;
+	@include transition(all 300ms ease-in-out);
 
 	&:hover {
 		background: #5fbe26;
