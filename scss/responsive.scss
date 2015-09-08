@@ -88,10 +88,15 @@
 
 		button.hdr-btn {
 			margin:10px 0 !important;
-			font-size: 10px;
+			font-size: 10px !important;
 		}
 
 		.main-hdr {
 			height: auto !important;
+		}
+
+		h3.job-ttle {
+			line-height: 20px !important;
+			margin: 15px 0 !important;
 		}
 	}
