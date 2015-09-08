@@ -228,8 +228,7 @@
                         <div class="works-desc-con">
                             <h5 class="works-hdr">TANGKIT'S BAKESHOP</h5>
                             <p class="works-par">
-                                This is an Identity I made for my colleague for his bakeshop. It offers variety of types of breads.
-                            </p>
+                                This is an Identity I made for my colleague for his bakeshop. It offers a variety of breads that is so delicous and yummy!
                             <a href="https://www.behance.net/gallery/28871317/Tangkits-Bakeshop" target="_blank">
                                 <p class="cntr"> <button class="view">VIEW PROJECT + </button> </p>
                             </a>
