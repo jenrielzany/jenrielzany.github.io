@@ -127,9 +127,9 @@
             <div class="c4 less-pd">
                 <div class="srvc-con wow fadeInUp" data-wow-delay=".2s">
                      <img src="img/clock.png" alt="">
-                        <h5 class="srvc-hdr">GENUINE CONCEPT</h5>
+                        <h5 class="srvc-hdr">RIGHT ON TIME</h5>
                         <p class="srvc-par">
-                            I can finish projects right before the time you expected it to get done! You will never see it coming and just get surprised how things happen so fast! WINK!
+                            I can finish projects right before the time you expected it to get done! You will never see it coming and just get surprised how things happen so fast! WINKS!
                         </p>
                 </div>
             </div>
@@ -139,7 +139,7 @@
                      <img src="img/bar-graph.png" alt="">
                         <h5 class="srvc-hdr">TOP OF THE LINE</h5>
                         <p class="srvc-par">
-                            I can finish projects right before the time you expected it to get done! You will never see it coming and just get surprised how things happen so fast! WINK!
+                            I deliver top of the line products that you will surely like! You can expect high quality designs that meets your expectations towards your project. CHEERS!
                         </p>
                 </div>
             </div>
@@ -149,7 +149,7 @@
                      <img src="img/bulb.png" alt="">
                         <h5 class="srvc-hdr">GENUINE CONCEPT</h5>
                         <p class="srvc-par">
-                            I can finish projects right before the time you expected it to get done! You will never see it coming and just get surprised how things happen so fast! WINK!
+                            I create genius concepts that makes an obvious relevance to your business! From Flat to Realism to Minimalism, I can do all that for you! SMILES!
                         </p>
                 </div>
             </div>
