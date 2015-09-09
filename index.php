@@ -191,7 +191,7 @@
                         </p>
                         <a href="https://www.behance.net/gallery/29179505/Greenwire-Outsourcing-Inc-Internal-Dashboard" target="_blank">
                             <p class="cntr">
-                                <button class="view">VIEW PROJECT +</button>
+                                <button class="view">VIEW PROJECT <i class="fa fa-eye"></i></button>
                             </p>
                         </a>
                     </div>
@@ -211,7 +211,7 @@
                         </p>
                         <a href="https://www.behance.net/gallery/28986269/New-Zany-GD-Logo" target="_blank">
                             <p class="cntr">
-                                <button class="view">VIEW PROJECT +</button>
+                                <button class="view">VIEW PROJECT <i class="fa fa-eye"></i></button>
                             </p>
                         </a>
                     </div>
@@ -231,7 +231,7 @@
                         </p>
                         <a href="https://www.behance.net/gallery/29022615/Zany-Logo-Revision-20" target="_blank">
                             <p class="cntr">
-                                <button class="view">VIEW PROJECT +</button>
+                                <button class="view">VIEW PROJECT <i class="fa fa-eye"></i></button>
                             </p>
                         </a>
                     </div>
@@ -250,7 +250,7 @@
                             This is an Identity I made for my colleague for his bakeshop. It offers a variety of breads that is so delicous and yummy!
                             <a href="https://www.behance.net/gallery/28871317/Tangkits-Bakeshop" target="_blank">
                                 <p class="cntr">
-                                    <button class="view">VIEW PROJECT +</button>
+                                    <button class="view">VIEW PROJECT <i class="fa fa-eye"></i></button>
                                 </p>
                             </a>
                     </div>
@@ -271,7 +271,7 @@
                             </p>
                             <a href="https://www.behance.net/gallery/17367691/Pinyourself" target="_blank">
                                 <p class="cntr">
-                                    <button class="view">VIEW PROJECT +</button>
+                                    <button class="view">VIEW PROJECT <i class="fa fa-eye"></i></button>
                                 </p>
                             </a>
                         </div>
@@ -291,7 +291,7 @@
                             </p>
                             <a href="http://zgfx.github.io" target="_blank">
                                 <p class="cntr">
-                                    <button class="view">VIEW PROJECT +</button>
+                                    <button class="view">VIEW PROJECT <i class="fa fa-eye"></i></button>
                                 </p>
                             </a>
                         </div>
@@ -311,7 +311,7 @@
                             </p>
                             <a href="https://www.behance.net/gallery/28957473/Product-Marketing-Websites" target="_blank">
                                 <p class="cntr">
-                                    <button class="view">VIEW PROJECT +</button>
+                                    <button class="view">VIEW PROJECT <i class="fa fa-eye"></i></button>
                                 </p>
                             </a>
                         </div>
@@ -331,7 +331,7 @@
                             </p>
                             <a href="http://solarsavingsusa.com" target="_blank">
                                 <p class="cntr">
-                                    <button class="view">VIEW PROJECT +</button>
+                                    <button class="view">VIEW PROJECT <i class="fa fa-eye"></i></button>
                                 </p>
                             </a>
                         </div>
@@ -343,7 +343,7 @@
 
     <a href="http://behance.net/zanygd" target="_blank">
         <p class="cntr">
-            <button class="view-mre wow shake">VIEW MORE PROJECTS +</button>
+            <button class="view-mre wow shake">VIEW MORE PROJECTS <i class="fa fa-plus"></i></button>
         </p>
     </a>
 
