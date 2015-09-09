@@ -391,8 +391,7 @@ body.menu-active div#content .menu-trigger {
 }
 
 .main-hdr {
-	background: url('../img/header-bg.jpg') center top no-repeat;
-	background-size: cover;
+	background: url('../img/dots.png') center top repeat;
 	padding:0;
 	margin:0;
 	overflow: hidden;
@@ -425,7 +424,8 @@ body.menu-active div#content .menu-trigger {
 }
 
 .hdr-dots {
-	background: url('../img/dots.png') center top repeat;
+	background: url('../img/header-bg.jpg') center top no-repeat;
+	background-size: cover;
 	padding:0;
 	margin:0;
 }
@@ -514,10 +514,7 @@ body.menu-active div#content .menu-trigger {
 }
 
 .about-con {
-	background: url('../img/header-bg.jpg') center top no-repeat;
-	background-size: cover;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
+	background: url('../img/dots.png') center top repeat;
 	overflow: hidden;
 	margin-top: 20px;
 	box-shadow: 0px 2px 2px #ddd;
@@ -553,13 +550,10 @@ button.hdr-btn {
 	padding: 12px 50px;
 	outline: none;
 
-	@media only screen and (max-width: 480px) {
-		width: 100%;
-	}
-
-		@media only screen and (max-width: 640px) {
-			width: 50%;
+	@media only screen and (max-width: 640px) {
+			width: 100%;
 		}
+		
 
 	@include transition(all .2s ease-in-out);
 

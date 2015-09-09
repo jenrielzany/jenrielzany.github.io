@@ -49,7 +49,7 @@
     <!-- ==========Side Circle Selectors ========== -->
 
     <div class="hdr-dots" id="home">
-        <div class="main-hdr hdr-dots wow fadeIn">
+        <div class="main-hdr wow fadeIn" data-wow-delay=".5s">
             <div class="wfull grid">
 
                 <div class="row">
