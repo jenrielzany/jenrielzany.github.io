@@ -129,7 +129,7 @@
 
     <div class="srvce" id="service">
         <div class="wfull grid">
-            <div class="c4 less-pd">
+            <div class="c4 clear">
                 <div class="srvc-con wow fadeInUp" data-wow-delay=".2s">
                     <img src="img/clock.png" alt="">
                     <h5 class="srvc-hdr">RIGHT ON TIME</h5>
@@ -139,7 +139,7 @@
                 </div>
             </div>
 
-            <div class="c4 less-pd">
+            <div class="c4 clear">
                 <div class="srvc-con wow fadeInUp" data-wow-delay=".4s">
                     <img src="img/bar-graph.png" alt="">
                     <h5 class="srvc-hdr">TOP OF THE LINE</h5>
@@ -149,7 +149,7 @@
                 </div>
             </div>
 
-            <div class="c4 less-pd">
+            <div class="c4 clear">
                 <div class="srvc-con wow fadeInUp" data-wow-delay=".8s">
                     <img src="img/bulb.png" alt="">
                     <h5 class="srvc-hdr">GENUINE CONCEPT</h5>
@@ -178,7 +178,7 @@
 
     <div class="works-section">
         <div class="wfull grid">
-            <div class="c3 less-mg less-pd">
+            <div class="c3 clear">
                 <div class="works-con wow fadeIn" data-wow-delay=".2s">
                     <div class="img-con">
                         <img src="img/proj01.jpg" alt="" />
@@ -198,7 +198,7 @@
                 </div>
             </div>
 
-            <div class="c3 less-mg less-pd">
+            <div class="c3 clear">
                 <div class="works-con wow fadeIn" data-wow-delay=".4s">
                     <div class="img-con">
                         <img src="img/proj02.jpg" alt="">
@@ -218,7 +218,7 @@
                 </div>
             </div>
 
-            <div class="c3 less-mg less-pd">
+            <div class="c3 clear">
                 <div class="works-con wow fadeIn" data-wow-delay=".7s">
                     <div class="img-con">
                         <img src="img/proj03.jpg" alt="">
@@ -238,7 +238,7 @@
                 </div>
             </div>
 
-            <div class="c3 less-mg less-pd">
+            <div class="c3 clear">
                 <div class="works-con wow fadeIn" data-wow-delay="1s">
                     <div class="img-con">
                         <img src="img/proj04.jpg" alt="">
@@ -258,7 +258,7 @@
             </div>
 
             <div class="row">
-                <div class="c3 less-mg less-pd">
+                <div class="c3 clear">
                     <div class="works-con wow fadeIn" data-wow-delay=".2s">
                         <div class="img-con">
                             <img src="img/proj05.jpg" alt="" />
@@ -278,7 +278,7 @@
                     </div>
                 </div>
 
-                <div class="c3 less-mg less-pd">
+                <div class="c3 clear">
                     <div class="works-con wow fadeIn" data-wow-delay=".4s">
                         <div class="img-con">
                             <img src="img/proj06.jpg" alt="">
@@ -298,7 +298,7 @@
                     </div>
                 </div>
 
-                <div class="c3 less-mg less-pd">
+                <div class="c3 clear">
                     <div class="works-con wow fadeIn" data-wow-delay=".7s">
                         <div class="img-con">
                             <img src="img/proj07.jpg" alt="">
@@ -318,7 +318,7 @@
                     </div>
                 </div>
 
-                <div class="c3 less-mg less-pd">
+                <div class="c3 clear">
                     <div class="works-con wow fadeIn" data-wow-delay="1s">
                         <div class="img-con">
                             <img src="img/proj08.jpg" alt="">
@@ -343,7 +343,7 @@
 
     <a href="http://behance.net/zanygd" target="_blank">
         <p class="cntr">
-            <button class="view-mre">VIEW MORE PROJECTS +</button>
+            <button class="view-mre wow shake">VIEW MORE PROJECTS +</button>
         </p>
     </a>
 

@@ -54,7 +54,7 @@ body {
 	margin:0;
 	padding:0;
 	font-family: $pars;
-	background: #eeeeee;
+	background: #f7f7f7;
 }
 
 /* Custom Colors */
@@ -121,7 +121,7 @@ body {
 				transform: scale(1.5);
 				-moz-transform: scale(1.5);
 				-webkit-transform: scale(1.5);
-				border-color: #000 !important;
+				border-color: #333 !important;
 			}
 		}
 
@@ -139,36 +139,36 @@ body {
 
 		&:nth-child(2) {
 		 .dots {
-			background: #000;
-			border: 2px solid #000;
+			background: #333;
+			border: 2px solid #333;
 
 				 &:hover{
-				 	border: 3px solid #000;
-					background: #000;
+				 	border: 3px solid #333;
+					background: #333;
 				 }
 		 	}
 		}
 
 		&:nth-child(3) {
 		 .dots {
-			background: #000;
-			border: 2px solid #000;
+			background: #333;
+			border: 2px solid #333;
 
 				 &:hover{
-				 	border: 3px solid #000;
-					background: #000;
+				 	border: 3px solid #333;
+					background: #333;
 				 }
 		 	}
 		}
 
 		&:nth-child(4) {
 		 .dots {
-			background: #000;
-			border: 2px solid #000;
+			background: #333;
+			border: 2px solid #333;
 
 				 &:hover{
-				 	border: 3px solid #000;
-					background: #000;
+				 	border: 3px solid #333;
+					background: #333;
 				 }
 		 	}
 		}
@@ -181,14 +181,14 @@ body {
 	height: 10px;
 	width:10px;
 	border-radius: 50px;
-	background: #000;
+	background: #333;
 	margin:30px 0;
-	border: 2px solid #000;
+	border: 2px solid #333;
 	@include transition(all .2s ease-in-out);
 
 	&:hover, &.active {
-	 	border: 3px solid #000;
-		background: #000;
+	 	border: 3px solid #333;
+		background: #333;
 		transform: scale(1.1);
 		-moz-transform: scale(1.1);
 		-webkit-transform: scale(1.1);
@@ -453,9 +453,19 @@ body.menu-active div#content .menu-trigger {
 		background: $white;
 		overflow: hidden;
 		padding: 80px 20px;
-		margin-top: 20px;
 		min-height: 400px;
 		box-shadow: 0px 2px 2px #ddd;
+		cursor: pointer;
+		@include transition(all .2s ease-in-out);
+
+		&:hover {
+			background-color: #f7f7f7;
+			@include transition(all .2s ease-in-out);
+		}
+
+		@media only screen and (max-width: 640px) {
+			border-top: 1px solid #ddd;
+		}
 
 		& img {
 			width: 25%;
@@ -490,9 +500,12 @@ body.menu-active div#content .menu-trigger {
 .works-con {
 	background: $white;
 	overflow: hidden;
-	margin-top: 20px;
 	box-shadow: 0px 2px 2px #ddd;
 	min-height: 470px;
+
+	@media only screen and (max-width: 640px) {
+		margin-top: 10px;
+	}
 
 	.works-desc-con {
 		padding:20px;
