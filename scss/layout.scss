@@ -424,6 +424,12 @@ body.menu-active div#content .menu-trigger {
 	}
 }
 
+.hdr-dots {
+	background: url('../img/dots.png') center top repeat;
+	padding:0;
+	margin:0;
+}
+
 /* Spin Transition */
 
 .spin {
@@ -546,6 +552,14 @@ button.hdr-btn {
 	margin: 25px 0;
 	padding: 12px 50px;
 	outline: none;
+
+	@media only screen and (max-width: 480px) {
+		width: 100%;
+	}
+
+		@media only screen and (max-width: 640px) {
+			width: 50%;
+		}
 
 	@include transition(all .2s ease-in-out);
 
