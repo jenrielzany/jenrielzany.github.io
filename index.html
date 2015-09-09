@@ -48,78 +48,80 @@
     </div>
     <!-- ==========Side Circle Selectors ========== -->
 
-    <div class="main-hdr wow fadeIn" id="home">
-        <div class="wfull grid">
+    <div class="hdr-dots" id="home">
+        <div class="main-hdr hdr-dots wow fadeIn">
+            <div class="wfull grid">
 
-            <div class="row">
-                <div class="hdr-con">
-                    <div class="c2"></div>
+                <div class="row">
+                    <div class="hdr-con">
+                        <div class="c2"></div>
 
-                    <div class="c8">
-                        <p class="cntr">
-                            <img src="img/logo.png" alt="" class="wow fadeInDown">
-                            <h5 class="intro wow fadeInDown"> MY NAME IS: </h5>
-                            <h1 class="intro wow FadeIn"> JENRIEL <span class="orange zny">ZANY</span> JADRAQUE </h1>
-                            <h3 class="job-ttle wow fadeInUp"> UI/UX DESIGNER. FRONT-END DEVELOPER. From Cebu City, Philippines! </h3>
-                            <p class="hdr-par cntr wow fadeInUp" data-wow-delay=".5s">
-                                <span class="orange brilliant">Brilliant Designer. Brilliant Products</span>. I Make brilliant ideas that are out of the box. Always reliable and passionate to the projects I am working with. Wink!
+                        <div class="c8">
+                            <p class="cntr">
+                                <img src="img/logo.png" alt="" class="wow fadeInDown">
+                                <h5 class="intro wow fadeInDown"> MY NAME IS: </h5>
+                                <h1 class="intro wow FadeIn"> JENRIEL <span class="orange zny">ZANY</span> JADRAQUE </h1>
+                                <h3 class="job-ttle wow fadeInUp"> UI/UX DESIGNER. FRONT-END DEVELOPER. From Cebu City, Philippines! </h3>
+                                <p class="hdr-par cntr wow fadeInUp" data-wow-delay=".5s">
+                                    <span class="orange brilliant">Brilliant Designer. Brilliant Products</span>. I Make brilliant ideas that are out of the box. Always reliable and passionate to the projects I am working with. Wink!
+                                </p>
+
+                                <p class="cntr wow flipInX" data-wow-delay="1s">
+                                    <a href="#works">
+                                        <button class="hdr-btn"> <i class="fa fa-arrow-down"></i>LET'S GET START</button>
+                                    </a>
+                                    <a href="http://gmail.com" target="_blank">
+                                        <button class="hdr-btn"> <i class="fa fa-paper-plane-o"></i>JENRIELZANY@GMAIL.COM</button>
+                                    </a>
+                                </p>
+
+                                <p class="cntr wow flipInX" data-wow-delay="1.2s">
+                                    <a href="http://behance.net/zanygd" target="_blank">
+                                        <span class="hdr-lnks"> <i class="fa fa-behance"></i></span>
+                                    </a>
+
+                                    <a href="https://www.linkedin.com/profile/view?id=AAIAABQgvBoBy3PUj5jEeOHK5koU9E2wcj3NhyM&trk=nav_responsive_tab_profile" target="_blank">
+                                        <span class="hdr-lnks"> <i class="fa fa-linkedin"></i></span>
+                                    </a>
+
+                                    <a href="https://dribbble.com/jenriel_zny" target="_blank">
+                                        <span class="hdr-lnks"> <i class="fa fa-dribbble"></i></span>
+                                    </a>
+
+                                    <a href="https://github.com/jenrielzany" target="_blank">
+                                        <span class="hdr-lnks"> <i class="fa fa-github"></i></span>
+                                    </a>
+                                </p>
                             </p>
-
-                            <p class="cntr wow flipInX" data-wow-delay="1s">
-                                <a href="#works">
-                                    <button class="hdr-btn"> <i class="fa fa-arrow-down"></i>LET'S GET START</button>
-                                </a>
-                                <a href="http://gmail.com" target="_blank">
-                                    <button class="hdr-btn"> <i class="fa fa-paper-plane-o"></i>JENRIELZANY@GMAIL.COM</button>
-                                </a>
-                            </p>
-
-                            <p class="cntr wow flipInX" data-wow-delay="1.2s">
-                                <a href="http://behance.net/zanygd" target="_blank">
-                                    <span class="hdr-lnks"> <i class="fa fa-behance"></i></span>
-                                </a>
-
-                                <a href="https://www.linkedin.com/profile/view?id=AAIAABQgvBoBy3PUj5jEeOHK5koU9E2wcj3NhyM&trk=nav_responsive_tab_profile" target="_blank">
-                                    <span class="hdr-lnks"> <i class="fa fa-linkedin"></i></span>
-                                </a>
-
-                                <a href="https://dribbble.com/jenriel_zny" target="_blank">
-                                    <span class="hdr-lnks"> <i class="fa fa-dribbble"></i></span>
-                                </a>
-
-                                <a href="https://github.com/jenrielzany" target="_blank">
-                                    <span class="hdr-lnks"> <i class="fa fa-github"></i></span>
-                                </a>
-                            </p>
-                        </p>
-                    </div>
-
-                    <div class="c2"></div>
-
-                    <!-- ======= Slider Menu on Mobile ========= -->
-                    <nav id="slide-menu">
-                        <ul>
-                            <h1 class="slide-title wow fadeInLeft"><i class="fa fa-tasks"></i>MAIN MENU</h1>
-                            <li class="wow fadeInLeft" data-wow-delay=".3s"> <a href="#home"><i class="fa fa-home"></i>Home</a> 
-                            </li>
-                            <li class="wow fadeInLeft" data-wow-delay=".5s"> <a href="#service"><i class="fa fa-rocket"></i> Service</a> 
-                            </li>
-                            <li class="wow fadeInLeft" data-wow-delay=".7s"> <a href="#works"><i class="fa fa-soccer-ball-o"></i>Works</a> 
-                            </li>
-                            <li class="wow fadeInLeft" data-wow-delay="1s"> <a href="#about"><i class="fa fa-phone"></i>About</a> 
-                            </li>
-                        </ul>
-                    </nav>
-                    <!-- Content panel -->
-                    <div id="content">
-                        <div class="menu-trigger wow fadeIn" data-wow-delay=".5s">
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
                         </div>
-                    </div>
-                    <!-- ======= End of Slider Menu on Mobile ========= -->
 
+                        <div class="c2"></div>
+
+                        <!-- ======= Slider Menu on Mobile ========= -->
+                        <nav id="slide-menu">
+                            <ul>
+                                <h1 class="slide-title wow fadeInLeft"><i class="fa fa-tasks"></i>MAIN MENU</h1>
+                                <li class="wow fadeInLeft" data-wow-delay=".3s"> <a href="#home"><i class="fa fa-home"></i>Home</a> 
+                                </li>
+                                <li class="wow fadeInLeft" data-wow-delay=".5s"> <a href="#service"><i class="fa fa-rocket"></i> Service</a> 
+                                </li>
+                                <li class="wow fadeInLeft" data-wow-delay=".7s"> <a href="#works"><i class="fa fa-soccer-ball-o"></i>Works</a> 
+                                </li>
+                                <li class="wow fadeInLeft" data-wow-delay="1s"> <a href="#about"><i class="fa fa-phone"></i>About</a> 
+                                </li>
+                            </ul>
+                        </nav>
+                        <!-- Content panel -->
+                        <div id="content">
+                            <div class="menu-trigger wow fadeIn" data-wow-delay=".5s">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </div>
+                        </div>
+                        <!-- ======= End of Slider Menu on Mobile ========= -->
+
+                    </div>
                 </div>
             </div>
         </div>
