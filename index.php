@@ -163,7 +163,8 @@
                 <div class="c6">
                     <h1 class="section-hdrs"> PLEASE CHECK OUT MY WORKS</h1>
                     <p class="srvc-par">
-                        I can finish projects right before the time you expected it to get done! You will never see it coming and just get surprised how things happen so fast! WINK!
+                        These are my works for the past months. The rest of my projects are in my behance account. You can redirect yourself 
+                        by clicking the "View More Projects" button below. Enjoy!
                     </p>
                 </div>
 
@@ -173,9 +174,9 @@
 
         <div class="works-section">
             <div class="wfull grid">
-                <div class="c3">
+                <div class="c3 less-mg less-pd">
                     <div class="works-con wow fadeIn" data-wow-delay=".2s">
-                        <img src="img/proj01.jpg" alt="" />
+                        <div class="img-con"><img src="img/proj01.jpg" alt="" /></div>
 
                         <div class="works-desc-con">
                             <h5 class="works-hdr">GREENWIRE APP v2.0</h5>
@@ -189,9 +190,9 @@
                     </div>
                 </div>
 
-                <div class="c3">
+                <div class="c3 less-mg less-pd">
                     <div class="works-con wow fadeIn" data-wow-delay=".4s">
-                        <img src="img/proj02.jpg" alt="">
+                        <div class="img-con"><img src="img/proj02.jpg" alt=""></div>
 
                         <div class="works-desc-con">
                             <h5 class="works-hdr">ZANY LOGO v1.0</h5>
@@ -205,9 +206,9 @@
                     </div>
                 </div>
 
-                <div class="c3">
+                <div class="c3 less-mg less-pd">
                     <div class="works-con wow fadeIn" data-wow-delay=".7s">
-                        <img src="img/proj03.jpg" alt="">
+                        <div class="img-con"><img src="img/proj03.jpg" alt=""></div>
 
                         <div class="works-desc-con">
                             <h5 class="works-hdr">ZANY LOGO v2.0</h5>
@@ -221,9 +222,9 @@
                     </div>
                 </div>
 
-                <div class="c3">
+                <div class="c3 less-mg less-pd">
                     <div class="works-con wow fadeIn" data-wow-delay="1s">
-                        <img src="img/proj04.jpg" alt="">
+                        <div class="img-con"><img src="img/proj04.jpg" alt=""></div>
 
                         <div class="works-desc-con">
                             <h5 class="works-hdr">TANGKIT'S BAKESHOP</h5>
@@ -237,14 +238,14 @@
                 </div>
 
                 <div class="row">
-                    <div class="c3">
-                    <div class="works-con wow fadeInUp" data-wow-delay=".2s">
-                        <img src="img/proj05.jpg" alt="" />
+                    <div class="c3 less-mg less-pd">
+                    <div class="works-con wow fadeIn" data-wow-delay=".2s">
+                        <div class="img-con"><img src="img/proj05.jpg" alt="" /></div>
 
                         <div class="works-desc-con">
-                            <h5 class="works-hdr">PIN YOURSELF</h5>
+                            <h5 class="works-hdr">PIN YOURSELF APP IDENTITY</h5>
                             <p class="works-par">
-                                Pin Yourself Logo. This is a Mobile App that enables you to send messages through virtual Pins.
+                                Pin Yourself Identity. Made this one for a European client. A Mobile App that enables you to send messages through Virtual Pins.
                             </p>
                             <a href="https://www.behance.net/gallery/17367691/Pinyourself" target="_blank">
                                 <p class="cntr"> <button class="view">VIEW PROJECT + </button> </p>
@@ -253,14 +254,15 @@
                     </div>
                 </div>
 
-                <div class="c3">
-                    <div class="works-con wow fadeInUp" data-wow-delay=".4s">
-                        <img src="img/proj06.jpg" alt="">
+                <div class="c3 less-mg less-pd">
+                    <div class="works-con wow fadeIn" data-wow-delay=".4s">
+                        <div class="img-con"><img src="img/proj06.jpg" alt=""></div>
 
                         <div class="works-desc-con">
                             <h5 class="works-hdr">ZANY GRAPHICS & DESIGNS v1.0</h5>
                             <p class="works-par">
-                                This is the very first Portfolio I had. But I wasn't contented because I wanted Minimalism.
+                                This is the very first Portfolio I had. But I wasn't contented and decided to go with Minimalism.
+                                It's clean and presentable.
                             </p>
                             <a href="http://zgfx.github.io" target="_blank">
                                 <p class="cntr"> <button class="view">VIEW PROJECT + </button> </p>
@@ -269,14 +271,15 @@
                     </div>
                 </div>
 
-                <div class="c3">
-                    <div class="works-con wow fadeInUp" data-wow-delay=".7s">
-                        <img src="img/proj07.jpg" alt="">
+                <div class="c3 less-mg less-pd">
+                    <div class="works-con wow fadeIn" data-wow-delay=".7s">
+                        <div class="img-con"><img src="img/proj07.jpg" alt=""></div>
 
                         <div class="works-desc-con">
                             <h5 class="works-hdr"> PRODUCT MARKETING WEBSITES</h5>
                             <p class="works-par">
-                                There are couple of these pages. The main purpose of these pages is to sell products on Traffic.
+                                There are couple of these pages. The main purpose of these pages is to sell products on Traffic and to 
+                                be entertained by a call center.
                             </p>
                             <a href="https://www.behance.net/gallery/28957473/Product-Marketing-Websites" target="_blank">
                                <p class="cntr"> <button class="view">VIEW PROJECT + </button> </p> 
@@ -285,14 +288,15 @@
                     </div>
                 </div>
 
-                <div class="c3">
-                    <div class="works-con wow fadeInUp" data-wow-delay="1s">
-                        <img src="img/proj08.jpg" alt="">
+                <div class="c3 less-mg less-pd">
+                    <div class="works-con wow fadeIn" data-wow-delay="1s">
+                        <div class="img-con"><img src="img/proj08.jpg" alt=""></div>
 
                         <div class="works-desc-con">
                             <h5 class="works-hdr">SOLAR SAVINGS USA.COM</h5>
                             <p class="works-par">
-                                I made this one in collaboration with verticalops. SSU.com offers Solar Panels services.
+                                I made this one in collaboration with verticalops. SSU.com offers Solar Panels services with free 
+                                installation when purchase is done.
                             </p>
                             <a href="http://solarsavingsusa.com" target="_blank">
                                <p class="cntr"> <button class="view">VIEW PROJECT + </button> </p> 
@@ -314,7 +318,7 @@
                         <div class="c3"></div>
 
                         <div class="c6">
-                            <h1 class="section-hdrs"> GET TO KNOW ME </h1>
+                            <h1 class="section-hdrs"> GET TO KNOW ME, MY FRIENDS </h1>
                         </div>
 
                         <div class="c3"></div>
@@ -323,7 +327,8 @@
                         <div class="row">
                             <div class="c2"></div>
 
-                            <div class="c8">
+                            <div class="c8"> 
+
                                 <img src="img/about-img.png" alt="" class="wow flipInY">
 
                                 <h5 class="nme wow fadeIn">JENRIEL ZANY JADRAQUE</h5>
@@ -344,7 +349,7 @@
                             <div class="row">
                                 <div class="w640 grid">
                                     <div class="c4 wow fadeInDown" data-wow-delay=".2s">
-                                        <img src="img/heart.png" alt="" />
+                                       <p class="cntr"><i class="fa fa-heart-o i-lhd cntr"></i></p>
 
                                         <h5 class="abt-hdr"> LIKES </h5>
 
@@ -358,7 +363,7 @@
                                     </div>
 
                                     <div class="c4 wow fadeInDown" data-wow-delay=".5s">
-                                        <img src="img/guitar.png" alt="" />
+                                        <p class="cntr"><i class="fa fa-camera-retro i-lhd cntr"></i></p>
 
                                         <h5 class="abt-hdr"> HOBBIES </h5>
 
@@ -367,12 +372,12 @@
                                             <li>Listening to Goood Music</li>
                                             <li>Sketching</li>
                                             <li>Playing Video Games</li>
-                                            <li>Playing with Dog</li>
+                                            <li>Photography</li>
                                         </ul>
                                     </div>
 
                                     <div class="c4 wow fadeInDown" data-wow-delay="1s">
-                                        <img src="img/ex-heart.png" alt="" />
+                                        <p class="cntr"><i class="fa fa-trash i-lhd cntr"></i></p>
 
                                         <h5 class="abt-hdr"> DISLIKES </h5>
 
