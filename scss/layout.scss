@@ -171,7 +171,7 @@ body {
 /* Side Slider Menu Style */
 
 nav#slide-menu {
-    background: rgba(#000, 0.8);
+    background: rgba(#000, 0.9);
     z-index: 999;
     display: none;
     position: fixed;
@@ -201,7 +201,7 @@ nav#slide-menu > ul li {
     @include transition(all 300ms ease-in-out);
     text-decoration: none;
     letter-spacing: 1px;
-    border-bottom: 1px solid #555;
+    border-bottom: 1px solid rgba(#fff, 0.1);
 }
 nav#slide-menu > ul li a {
     font-family: $pars;
@@ -227,8 +227,9 @@ nav#slide-menu > ul li a {
     }
     &:hover {
         letter-spacing: 4px;
+        color: #e56d39;
         &, i {
-            color: #fff;
+            color: #e56d39;
             @include transition(all .1s ease-in-out);
         }
     }
@@ -278,9 +279,9 @@ div#content div.menu-trigger {
     float: left;
 }
 div.menu-trigger .icon-bar {
-    width: 28px;
+    width: 45px;
     height: 4px;
-    background-color: #000;
+    background-color: #e56d39;
     display: block;
     position: relative;
     border-radius: 10px;
