@@ -59,7 +59,7 @@ body {
 .pink {color: #dd4061 !important;}
 .green {color: #69ae17 !important;}
 .blue {color: #2fbde1 !important;}
-.orange {color: #dc331d !important;}
+.orange {color: #e56d39 !important;}
 .black { color: #000 !important;}
 .white { color: #FFF !important;}
 .red {color: #e82828 !important;}
@@ -435,11 +435,11 @@ body.menu-active div#content .menu-trigger {
         position: absolute;
         opacity: 0;
         display: inline-block;
-        background-color: rgba(#000, 0.8);
+        background-color: rgba(#000, 0.9);
         height: 100%;
         width: 100%;
-        top: 400px;
-        left:0;
+        top: 0;
+        left: 400px;
         padding: 18% 10%;
         @include transition(all .3s ease-in-out);
 
@@ -472,7 +472,7 @@ body.menu-active div#content .menu-trigger {
     &:hover > .works-hid-con {
         opacity: 1;
         @include transition(all .3s ease-in-out);
-        top: 0px;
+        left: 0px;
     }
 
     & img {
