@@ -178,56 +178,17 @@
 
     <div class="works-section">
         <div class="wfull grid">
-            <div class="c3 clear">
-                <div class="works-con wow fadeIn" data-wow-delay=".2s">
-                    <div class="img-con">
-                        <img src="img/proj01.jpg" alt="" />
-                    </div>
 
-                    <div class="works-desc-con">
-                        <h5 class="works-hdr">GREENWIRE APP v2.0</h5>
-                        <p class="works-par">
-                            The main function of the app is that agents are able to know and get updates of their performance in the company.
-                        </p>
-                        <a href="https://www.behance.net/gallery/29179505/Greenwire-Outsourcing-Inc-Internal-Dashboard" target="_blank">
-                            <p class="cntr">
-                                <button class="view">VIEW PROJECT <i class="fa fa-eye"></i></button>
-                            </p>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="c3 clear">
-                <div class="works-con wow fadeIn" data-wow-delay=".4s">
+            <div class="c4 clear">
+                <div class="works-con wow fadeIn" data-wow-delay=".7s">
                     <div class="img-con">
                         <img src="img/proj02.jpg" alt="">
                     </div>
 
-                    <div class="works-desc-con">
+                    <div class="works-hid-con">
                         <h5 class="works-hdr">ZANY LOGO v1.0</h5>
                         <p class="works-par">
                             This is the very first revision of my Logo. But it ddnt worked out and I am not contented with it so I made v2.0
-                        </p>
-                        <a href="https://www.behance.net/gallery/28986269/New-Zany-GD-Logo" target="_blank">
-                            <p class="cntr">
-                                <button class="view">VIEW PROJECT <i class="fa fa-eye"></i></button>
-                            </p>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="c3 clear">
-                <div class="works-con wow fadeIn" data-wow-delay=".7s">
-                    <div class="img-con">
-                        <img src="img/proj03.jpg" alt="">
-                    </div>
-
-                    <div class="works-desc-con">
-                        <h5 class="works-hdr">ZANY LOGO v2.0</h5>
-                        <p class="works-par">
-                            This is the second version of my Logo. But it ddnt worked out and I am not contented with it so I decided to stick on my old logo
                         </p>
                         <a href="https://www.behance.net/gallery/29022615/Zany-Logo-Revision-20" target="_blank">
                             <p class="cntr">
@@ -238,16 +199,39 @@
                 </div>
             </div>
 
-            <div class="c3 clear">
-                <div class="works-con wow fadeIn" data-wow-delay="1s">
+            
+            <div class="c4 clear">
+                <div class="works-con wow fadeIn" data-wow-delay=".2s">
                     <div class="img-con">
-                        <img src="img/proj04.jpg" alt="">
+                        <img src="img/proj01.jpg" alt="" />
                     </div>
 
-                    <div class="works-desc-con">
-                        <h5 class="works-hdr">TANGKIT'S BAKESHOP</h5>
+                    <div class="works-hid-con">
+                        <div class="works-desc-con">
+                            <h5 class="works-hdr">GREENWIRE APP v2.0</h5>
+                            <p class="works-par">
+                                The main function of the app is that agents are able to know and get updates of their performance in the company.
+                            </p>
+                            <a href="https://www.behance.net/gallery/29179505/Greenwire-Outsourcing-Inc-Internal-Dashboard" target="_blank">
+                                <p class="cntr">
+                                    <button class="view">VIEW PROJECT <i class="fa fa-eye"></i></button>
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="c4 clear">
+                <div class="works-con wow fadeIn" data-wow-delay="1s">
+                    <div class="img-con">
+                        <img src="img/proj03.jpg" alt="">
+                    </div>
+
+                    <div class="works-hid-con">
+                        <h5 class="works-hdr">ZANY LOGO v2.0</h5>
                         <p class="works-par">
-                            This is an Identity I made for my colleague for his bakeshop. It offers a variety of breads that is so delicous and yummy!
+                            This is the second version of my Logo. But it ddnt worked out and I am not contented with it so I decided to stick on my old logo
                             <a href="https://www.behance.net/gallery/28871317/Tangkits-Bakeshop" target="_blank">
                                 <p class="cntr">
                                     <button class="view">VIEW PROJECT <i class="fa fa-eye"></i></button>
@@ -257,17 +241,17 @@
                 </div>
             </div>
 
-            <div class="row">
-                <div class="c3 clear">
+             <div class="row clear">
+                <div class="c4 clear">
                     <div class="works-con wow fadeIn" data-wow-delay=".2s">
                         <div class="img-con">
-                            <img src="img/proj05.jpg" alt="" />
+                            <img src="img/proj04.jpg" alt="" />
                         </div>
 
-                        <div class="works-desc-con">
-                            <h5 class="works-hdr">PIN YOURSELF APP IDENTITY</h5>
+                        <div class="works-hid-con">
+                            <h5 class="works-hdr">TANGKIT'S BAKESHOP</h5>
                             <p class="works-par">
-                                Pin Yourself Identity. Made this one for a European client. A Mobile App that enables you to send messages through Virtual Pins.
+                                This is an Identity I made for my colleague for his bakeshop. It offers a variety of breads that is so delicous and yummy! 
                             </p>
                             <a href="https://www.behance.net/gallery/17367691/Pinyourself" target="_blank">
                                 <p class="cntr">
@@ -278,36 +262,16 @@
                     </div>
                 </div>
 
-                <div class="c3 clear">
-                    <div class="works-con wow fadeIn" data-wow-delay=".4s">
+                <div class="c4 clear">
+                    <div class="works-con wow fadeIn" data-wow-delay=".7s">
                         <div class="img-con">
                             <img src="img/proj06.jpg" alt="">
                         </div>
 
-                        <div class="works-desc-con">
+                        <div class="works-hid-con">
                             <h5 class="works-hdr">ZANY GRAPHICS & DESIGNS v1.0</h5>
                             <p class="works-par">
                                 This is the very first Portfolio I had. But I wasn't contented and decided to go with Minimalism. It's clean and presentable.
-                            </p>
-                            <a href="http://zgfx.github.io" target="_blank">
-                                <p class="cntr">
-                                    <button class="view">VIEW PROJECT <i class="fa fa-eye"></i></button>
-                                </p>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="c3 clear">
-                    <div class="works-con wow fadeIn" data-wow-delay=".7s">
-                        <div class="img-con">
-                            <img src="img/proj07.jpg" alt="">
-                        </div>
-
-                        <div class="works-desc-con">
-                            <h5 class="works-hdr"> PRODUCT MARKETING WEBSITES</h5>
-                            <p class="works-par">
-                                There are couple of these pages. The main purpose of these pages is to sell products on Traffic and to be entertained by a call center.
                             </p>
                             <a href="https://www.behance.net/gallery/28957473/Product-Marketing-Websites" target="_blank">
                                 <p class="cntr">
@@ -318,18 +282,80 @@
                     </div>
                 </div>
 
-                <div class="c3 clear">
-                    <div class="works-con wow fadeIn" data-wow-delay="1s">
+                <div class="c4 clear">
+                    <div class="works-con wow fadeIn" data-wow-delay=".4s">
+                        <div class="img-con">
+                            <img src="img/proj05.jpg" alt="">
+                        </div>
+
+                        <div class="works-hid-con">
+                            <h5 class="works-hdr">PIN YOURSELF APP IDENTITY</h5>
+                            <p class="works-par">
+                                Pin Yourself Identity. Made this one for a European client. A Mobile App that enables you to send messages through Virtual Pins.
+                            </p>
+                            <a href="http://zgfx.github.io" target="_blank">
+                                <p class="cntr">
+                                    <button class="view">VIEW PROJECT <i class="fa fa-eye"></i></button>
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="c4 clear">
+                    <div class="works-con wow fadeIn" data-wow-delay=".2s">
+                        <div class="img-con">
+                            <img src="img/proj07.jpg" alt="" />
+                        </div>
+
+                        <div class="works-hid-con">
+                            <h5 class="works-hdr">PRODUCT MARKETING WEBSITES</h5>
+                            <p class="works-par">
+                                There are couple of these pages. The main purpose of these pages is to sell products on Traffic and to be entertained by a call cente
+                            </p>
+                            <a href="https://www.behance.net/gallery/17367691/Pinyourself" target="_blank">
+                                <p class="cntr">
+                                    <button class="view">VIEW PROJECT <i class="fa fa-eye"></i></button>
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="c4 clear">
+                    <div class="works-con wow fadeIn" data-wow-delay=".4s">
                         <div class="img-con">
                             <img src="img/proj08.jpg" alt="">
                         </div>
 
-                        <div class="works-desc-con">
+                        <div class="works-hid-con">
                             <h5 class="works-hdr">SOLAR SAVINGS USA.COM</h5>
                             <p class="works-par">
                                 I made this one in collaboration with verticalops. SSU.com offers Solar Panels services with free installation when purchase is done.
                             </p>
-                            <a href="http://solarsavingsusa.com" target="_blank">
+                            <a href="http://zgfx.github.io" target="_blank">
+                                <p class="cntr">
+                                    <button class="view">VIEW PROJECT <i class="fa fa-eye"></i></button>
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="c4 clear">
+                    <div class="works-con wow fadeIn" data-wow-delay=".7s">
+                        <div class="img-con">
+                            <img src="img/proj09.jpg" alt="">
+                        </div>
+
+                        <div class="works-hid-con">
+                            <h5 class="works-hdr">VERICALOPS INFORMATIVE WEBSITE</h5>
+                            <p class="works-par">
+                                Made this website for Verticalops last year. This has all the information that Verticalops can offer latest technolgies needed for a business.
+                            </p>
+                            <a href="https://www.behance.net/gallery/28957473/Product-Marketing-Websites" target="_blank">
                                 <p class="cntr">
                                     <button class="view">VIEW PROJECT <i class="fa fa-eye"></i></button>
                                 </p>

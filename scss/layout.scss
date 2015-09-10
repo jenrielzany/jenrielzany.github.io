@@ -56,38 +56,20 @@ body {
 }
 /* Custom Colors */
 
-.pink {
-    color: #dd4061 !important;
-}
-.green {
-    color: #69ae17 !important;
-}
-.blue {
-    color: #2fbde1 !important;
-}
-.orange {
-    color: #dc331d !important;
-}
-.black {
-    color: #000 !important;
-}
-.white {
-    color: #FFF !important;
-}
-.red {
-    color: #e82828 !important;
-}
-.purple {
-    color: #c628e8 !important;
-}
-/* Helpers */
+.pink {color: #dd4061 !important;}
+.green {color: #69ae17 !important;}
+.blue {color: #2fbde1 !important;}
+.orange {color: #dc331d !important;}
+.black { color: #000 !important;}
+.white { color: #FFF !important;}
+.red {color: #e82828 !important;}
+.purple {color: #c628e8 !important;}
 
-.less-pd {
-    padding: 0 5px !important;
-}
-.less-mg {
-    margin: 0 !important;
-}
+/* Helpers */
+.v-align {vertical-align: middle !important;} 
+.less-pd { padding: 0 5px !important;}
+.less-mg { margin: 0 !important;}
+
 /* Animations */
 
 .spin {
@@ -440,20 +422,61 @@ body.menu-active div#content .menu-trigger {
     overflow: hidden;
     padding: 0;
     margin: 0;
+    position: relative;
 }
 .works-con {
     background: $white;
     overflow: hidden;
     box-shadow: 0px 2px 2px #ddd;
-    min-height: 470px;
-    @media only screen and (max-width: 640px) {
-        margin-top: 10px;
-    }
-    .works-desc-con {
+    cursor: pointer;
+
+    .works-hid-con {
         padding: 20px;
-    }
-    & img {
+        position: absolute;
+        opacity: 0;
+        display: inline-block;
+        background-color: rgba(#000, 0.8);
+        height: 100%;
         width: 100%;
+        top: 400px;
+        left:0;
+        padding: 18% 10%;
+        @include transition(all .3s ease-in-out);
+
+        @media only screen and (max-width: 1024px) {
+            font-size: 10px !important;
+            padding: 10% 10%;
+        }
+
+            @media only screen and (max-width: 768px) {
+                font-size: 10px !important;
+                padding: 25% 10%;
+            }
+
+                 @media only screen and (max-width: 480px) {
+                    font-size: 10px !important;
+                    padding: 18% 10%;
+                }
+
+                    @media only screen and (max-width: 320px) {
+                        font-size: 10px !important;
+                        padding: 5% 10%;
+                    }
+
+        .works-desc-con {
+            display: table-cell;
+            vertical-align: middle; 
+        }
+    }
+
+    &:hover > .works-hid-con {
+        opacity: 1;
+        @include transition(all .3s ease-in-out);
+        top: 0px;
+    }
+
+    & img {
+        width: 100% !important;
         cursor: pointer;
         @include transition(all 2s ease-in-out);
         &:hover {
@@ -499,6 +522,7 @@ button.hdr-btn {
         width: 100%;
     }
     @include transition(all .2s ease-in-out);
+
     &:hover {
         @include transition(all .2s ease-in-out);
         background-color: #000;
@@ -521,6 +545,7 @@ button.view-mre {
     padding: 12px 50px;
     outline: none;
     @include transition(all .5s ease-in-out);
+
     &:hover {
         @include transition(all .5s ease-in-out);
         box-shadow: inset 500px 0 0 0 #000;
@@ -536,9 +561,9 @@ button.view-mre {
     }
 }
 button.view {
-    border: 1px solid #222;
+    border: 1px solid #fff;
     font-size: 10px;
-    color: $black;
+    color: $white;
     background: none;
     margin-top: 30px;
     padding: 12px 50px;
@@ -559,7 +584,7 @@ button.view {
     & i {
         @include transition(all .5s ease-in-out);
         margin-right: 10px;
-        color: #222;
+        color: $white;
     }
 }
 /* ======== Lists ======== */
@@ -650,8 +675,22 @@ h3.job-ttle {
     line-height: 50px;
     color: $dark-txt;
 }
-h5.srvc-hdr,
+
 h5.works-hdr {
+    font-size: 14px;
+    font-family: $headers;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    line-height: 50px;
+    color: $white;
+    @media only screen and (max-width: 1024px) {
+        line-height: 14px;
+        margin: 15px 0;
+    }
+}
+
+h5.srvc-hdr {
     font-size: 14px;
     font-family: $headers;
     text-align: center;
@@ -707,8 +746,18 @@ p.hdr-par {
     margin: 0 auto;
     line-height: 20px;
 }
-p.srvc-par,
+
 p.works-par {
+    font-size: $small-pars;
+    font-family: $pars;
+    text-align: center;
+    width: 90%;
+    color: $white;
+    margin: 0 auto;
+    line-height: 20px;
+}
+
+p.srvc-par {
     font-size: $small-pars;
     font-family: $pars;
     text-align: center;
