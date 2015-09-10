@@ -435,13 +435,12 @@ body.menu-active div#content .menu-trigger {
         position: absolute;
         opacity: 0;
         display: inline-block;
-        background-color: rgba(#000, 0.9);
         height: 100%;
         width: 100%;
         top: 0;
-        left: 400px;
+        left: 0;
         padding: 18% 10%;
-        @include transition(all .3s ease-in-out);
+        @include transition(all .5s ease-in-out);
 
         @media only screen and (max-width: 1024px) {
             font-size: 10px !important;
@@ -471,7 +470,8 @@ body.menu-active div#content .menu-trigger {
 
     &:hover > .works-hid-con {
         opacity: 1;
-        @include transition(all .3s ease-in-out);
+        box-shadow: inset 2px -4px 0px 300px rgba(#000, 0.9);
+        @include transition(all .5s ease-in-out);
         left: 0px;
     }
 
