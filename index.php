@@ -190,7 +190,7 @@
                         <p class="works-par">
                             This is the very first revision of my Logo. But it ddnt worked out and I am not contented with it so I made v2.0
                         </p>
-                        <a href="https://www.behance.net/gallery/29022615/Zany-Logo-Revision-20" target="_blank">
+                        <a href="https://www.behance.net/gallery/28986269/New-Zany-GD-Logo" target="_blank">
                             <p class="cntr">
                                 <button class="view">VIEW PROJECT <i class="fa fa-eye"></i></button>
                             </p>
@@ -232,7 +232,7 @@
                         <h5 class="works-hdr">ZANY LOGO v2.0</h5>
                         <p class="works-par">
                             This is the second version of my Logo. But it ddnt worked out and I am not contented with it so I decided to stick on my old logo
-                            <a href="https://www.behance.net/gallery/28871317/Tangkits-Bakeshop" target="_blank">
+                            <a href="https://www.behance.net/gallery/29022615/Zany-Logo-Revision-20" target="_blank">
                                 <p class="cntr">
                                     <button class="view">VIEW PROJECT <i class="fa fa-eye"></i></button>
                                 </p>
@@ -253,7 +253,7 @@
                             <p class="works-par">
                                 This is an Identity I made for my colleague for his bakeshop. It offers a variety of breads that is so delicous and yummy! 
                             </p>
-                            <a href="https://www.behance.net/gallery/17367691/Pinyourself" target="_blank">
+                            <a href="https://www.behance.net/gallery/28871317/Tangkits-Bakeshop" target="_blank">
                                 <p class="cntr">
                                     <button class="view">VIEW PROJECT <i class="fa fa-eye"></i></button>
                                 </p>
@@ -273,7 +273,7 @@
                             <p class="works-par">
                                 This is the very first Portfolio I had. But I wasn't contented and decided to go with Minimalism. It's clean and presentable.
                             </p>
-                            <a href="https://www.behance.net/gallery/28957473/Product-Marketing-Websites" target="_blank">
+                            <a href="https://zgfx.github.io" target="_blank">
                                 <p class="cntr">
                                     <button class="view">VIEW PROJECT <i class="fa fa-eye"></i></button>
                                 </p>
@@ -293,7 +293,7 @@
                             <p class="works-par">
                                 Pin Yourself Identity. Made this one for a European client. A Mobile App that enables you to send messages through Virtual Pins.
                             </p>
-                            <a href="http://zgfx.github.io" target="_blank">
+                            <a href="https://www.behance.net/gallery/17367691/Pinyourself" target="_blank">
                                 <p class="cntr">
                                     <button class="view">VIEW PROJECT <i class="fa fa-eye"></i></button>
                                 </p>
@@ -315,7 +315,7 @@
                             <p class="works-par">
                                 There are couple of these pages. The main purpose of these pages is to sell products on Traffic and to be entertained by a call cente
                             </p>
-                            <a href="https://www.behance.net/gallery/17367691/Pinyourself" target="_blank">
+                            <a href="https://www.behance.net/gallery/28957473/Product-Marketing-Websites" target="_blank">
                                 <p class="cntr">
                                     <button class="view">VIEW PROJECT <i class="fa fa-eye"></i></button>
                                 </p>
@@ -335,7 +335,7 @@
                             <p class="works-par">
                                 I made this one in collaboration with verticalops. SSU.com offers Solar Panels services with free installation when purchase is done.
                             </p>
-                            <a href="http://zgfx.github.io" target="_blank">
+                            <a href="http://www.solarsavingsusa.com" target="_blank">
                                 <p class="cntr">
                                     <button class="view">VIEW PROJECT <i class="fa fa-eye"></i></button>
                                 </p>
@@ -355,7 +355,7 @@
                             <p class="works-par">
                                 Made this website for Verticalops last year. This has all the information that Verticalops can offer latest technolgies needed for a business.
                             </p>
-                            <a href="https://www.behance.net/gallery/28957473/Product-Marketing-Websites" target="_blank">
+                            <a href="http://verticalops.com/" target="_blank">
                                 <p class="cntr">
                                     <button class="view">VIEW PROJECT <i class="fa fa-eye"></i></button>
                                 </p>
