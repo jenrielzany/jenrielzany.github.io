@@ -233,7 +233,7 @@
                     <div class="works-hid-con">
                         <h5 class="works-hdr">ZANY LOGO v2.0</h5>
                         <p class="works-par">
-                            This is the second version of my Logo. But it ddnt worked out and I am not contented with it so I decided to stick on my old logo
+                            This is the second version of my Logo. But it didn't work out and I am not contented with it so I decided to stick on my old logo
                             <a href="https://www.behance.net/gallery/29022615/Zany-Logo-Revision-20" target="_blank">
                                 <p class="cntr">
                                     <button class="view">VIEW PROJECT <i class="fa fa-eye"></i></button>
@@ -253,7 +253,7 @@
                         <div class="works-hid-con">
                             <h5 class="works-hdr">TANGKIT'S BAKESHOP</h5>
                             <p class="works-par">
-                                This is an Identity I made for my colleague for his bakeshop. It offers a variety of breads that is so delicous and yummy! 
+                                This is an Identity I made for my colleague for his bakeshop. It offers a variety of breads that is so delicious and yummy! 
                             </p>
                             <a href="https://www.behance.net/gallery/28871317/Tangkits-Bakeshop" target="_blank">
                                 <p class="cntr">
@@ -315,7 +315,7 @@
                         <div class="works-hid-con">
                             <h5 class="works-hdr">PRODUCT MARKETING WEBSITES</h5>
                             <p class="works-par">
-                                There are couple of these pages. The main purpose of these pages is to sell products on Traffic and to be entertained by a call cente
+                                There are couple of these pages. The main purpose of these pages is to sell products on Traffic and to be entertained by the call center
                             </p>
                             <a href="https://www.behance.net/gallery/28957473/Product-Marketing-Websites" target="_blank">
                                 <p class="cntr">

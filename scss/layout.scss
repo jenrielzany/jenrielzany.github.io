@@ -436,7 +436,7 @@ body.menu-active div#content .menu-trigger {
         position: absolute;
         opacity: 0;
         display: inline-block;
-        background-color: rgba(#000, 0.9);
+        background-color: rgba(#e56d39, 0.9);
         height: 100%;
         width: 100%;
         top: 0;
@@ -576,11 +576,11 @@ button.view {
     @include transition(all .5s ease-in-out);
     &:hover {
         @include transition(all .5s ease-in-out);
-        box-shadow: inset 640px 0 0 0 #e56d39;
-        border-color: #e56d39;
+        box-shadow: inset 640px 0 0 0 #fff;
+        color: #e56d39;
         &, i {
             @include transition(all .5s ease-in-out);
-            color: $white;
+            color: #e56d39;
         }
     }
     & i {
