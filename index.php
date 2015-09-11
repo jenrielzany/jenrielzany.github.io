@@ -21,6 +21,8 @@
 
 <body>
 
+    <a href="http://webguruawards.com/user/details/ZanyGraphicsandDesigns-261" style="background: url(http://webguruawards.com/awards/Nominee/img_nominee_right.png) no-repeat scroll 0 0 rgba(0, 0, 0, 0);width:75px;height:117px;position:fixed;top:80px;right:0;z-index:99999;" target="_blank"></a>
+
     <!-- ==========Side Circle Selectors ========== -->
     <div class="circle-selectors wow fadeIn" data-wow-delay="1s">
         <ul class="circles">
@@ -68,7 +70,7 @@
 
                                 <p class="cntr wow flipInX" data-wow-delay="1s">
                                     <a href="#works">
-                                        <button class="hdr-btn"> <i class="fa fa-arrow-down"></i>LET'S GET START</button>
+                                        <button class="hdr-btn"> <i class="fa fa-arrow-down"></i>LET'S GET STARTED</button>
                                     </a>
                                     <a href="http://gmail.com" target="_blank">
                                         <button class="hdr-btn"> <i class="fa fa-paper-plane-o"></i>JENRIELZANY@GMAIL.COM</button>
@@ -188,7 +190,7 @@
                     <div class="works-hid-con">
                         <h5 class="works-hdr">ZANY LOGO v1.0</h5>
                         <p class="works-par">
-                            This is the very first revision of my Logo. But it ddnt worked out and I am not contented with it so I made v2.0
+                            This is the very first revision of my Logo. But it didn't work out and I am not contented with it so I made v2.0
                         </p>
                         <a href="https://www.behance.net/gallery/28986269/New-Zany-GD-Logo" target="_blank">
                             <p class="cntr">
@@ -351,7 +353,7 @@
                         </div>
 
                         <div class="works-hid-con">
-                            <h5 class="works-hdr">VERICALOPS INFORMATIVE WEBSITE</h5>
+                            <h5 class="works-hdr">VERTICALOPS INFORMATIVE WEBSITE</h5>
                             <p class="works-par">
                                 Made this website for Verticalops last year. This has all the information that Verticalops can offer latest technolgies needed for a business.
                             </p>
