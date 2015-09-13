@@ -21,8 +21,7 @@
 
 <body>
 
-    <a href="http://webguruawards.com/user/details/ZanyGraphicsandDesigns-261" style="background: url(http://webguruawards.com/awards/Nominee/img_nominee_right.png) no-repeat scroll 0 0 rgba(0, 0, 0, 0);width:75px;height:117px;position:fixed;top:80px;right:0;z-index:99999;" target="_blank"></a>
-
+<a href="http://webguruawards.com/user/details/ZanyGraphicsandDesigns-261" style="background: url(http://webguruawards.com/awards/GOTD/img_guru_of_the_day_right.png) no-repeat scroll 0 0 rgba(0, 0, 0, 0);width:75px;height:117px;position:fixed;top:10px;right:0;z-index:99999;" target="_blank"></a>
     <!-- ==========Side Circle Selectors ========== -->
     <div class="circle-selectors wow fadeIn" data-wow-delay="1s">
         <ul class="circles">
