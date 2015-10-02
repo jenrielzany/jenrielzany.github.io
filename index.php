@@ -254,7 +254,7 @@
                             <p class="works-par">
                                 I create colourful, clean and awesome flat characters and objects that will surely delight your eyes. Everybody loves vector.
                             </p>
-                            <a href="https://www.behance.net/gallery/28871317/Tangkits-Bakeshop" target="_blank">
+                            <a href="https://www.behance.net/gallery/29957367/Flat-Designs" target="_blank">
                                 <p class="cntr">
                                     <button class="view">VIEW PROJECT <i class="fa fa-eye"></i></button>
                                 </p>
