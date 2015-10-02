@@ -250,9 +250,9 @@
                         </div>
 
                         <div class="works-hid-con">
-                            <h5 class="works-hdr">TANGKIT'S BAKESHOP</h5>
+                            <h5 class="works-hdr"> FLAT DESIGNS </h5>
                             <p class="works-par">
-                                This is an Identity I made for my colleague for his bakeshop. It offers a variety of breads that is so delicious and yummy! 
+                                I create colourful, clean and awesome flat characters and objects that will surely delight your eyes. Everybody loves vector.
                             </p>
                             <a href="https://www.behance.net/gallery/28871317/Tangkits-Bakeshop" target="_blank">
                                 <p class="cntr">
