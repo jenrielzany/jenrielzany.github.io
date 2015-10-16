@@ -7,11 +7,10 @@
 
 /* ========= Typography =========*/
 
-$headers:'Roboto-Black';
- $sub-headers:'Roboto-Bold';
- $titles:'Roboto-Medium';
- $pars:'Roboto-Light';
- $thin:'Roboto-Thin';
+ $headers:'RobotoSlab-Bold';
+ $titles:'RobotoSlab-Medium';
+ $pars:'RobotoSlab-Light';
+ $thin:'RobotoSlab-Thin';
  $pars-size:14px;
  $small-pars:12px;
  $header-size:60px;
@@ -208,6 +207,11 @@ nav#slide-menu > ul li {
     text-decoration: none;
     letter-spacing: 1px;
     border-bottom: 1px solid rgba(#fff, 0.1);
+
+
+    &:last-child {
+        border: none;
+    }
 }
 nav#slide-menu > ul li a {
     font-family: $pars;
@@ -344,11 +348,11 @@ body.menu-active div#content .menu-trigger {
 
 .works-section {
     padding: 0;
-    margin: 0;
+    margin: 50px 0;
     overflow: hidden;
 }
 .main-hdr {
-    background: url('../img/dots.png') center top repeat;
+    background: url('../img/hdr-bg.jpg') center top repeat;
     padding: 0;
     margin: 0;
     overflow: hidden;
@@ -497,9 +501,9 @@ body.menu-active div#content .menu-trigger {
     }
 }
 .about-con {
-    background: url('../img/dots.png') center top repeat;
+    background: url('../img/about-bg.jpg') center top repeat;
     overflow: hidden;
-    margin-top: 20px;
+    margin-top: 50px;
     box-shadow: 0px 2px 2px #ddd;
     & img {
         cursor: pointer;
@@ -517,9 +521,9 @@ body.menu-active div#content .menu-trigger {
 
 button.hdr-btn {
     border: 1px solid #222;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
     font-size: 12px;
     color: $black;
     background: none;
@@ -628,19 +632,19 @@ ul.lhd {
 /* ========== Typography ========== */
 
 h1.section-hdrs {
-    font-size: 15px;
+    font-size: 18px;
     font-family: $headers;
     text-align: center;
-    letter-spacing: 5px;
-    margin: 30px 0;
+    letter-spacing: 2px;
+    margin: 40px 0;
     padding: 0;
     line-height: 35px;
     color: $black;
     &:after {
         content: " ";
-        border-bottom: 2px solid #000;
+        border-bottom: 4px solid #e56d39;
         display: table;
-        width: 180px;
+        width: 50px;
         margin: 0 auto;
     }
 }
@@ -766,7 +770,7 @@ p.works-par {
 }
 
 p.srvc-par {
-    font-size: $small-pars;
+    font-size: 14px;
     font-family: $pars;
     text-align: center;
     width: 90%;
@@ -812,11 +816,11 @@ span.hdr-lnks {
     font-size: 10px;
     display: inline;
     padding: 5px 7px;
-    background: #555;
+    background: #333;
     border-radius: 50px;
     @include transition(all 300ms ease-in-out);
     &:hover {
-        background: #222;
+        background: #111;
     }
     & i {
         color: $light-txt !important;
