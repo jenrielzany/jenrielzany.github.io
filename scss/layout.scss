@@ -7,6 +7,8 @@
 
 /* ========= Typography =========*/
 
+ $work-number:'Roboto-Thin';
+ $ultra-bold:'Lato-Black';
  $bold:'Lato-Bold';
  $pars:'Lato-Regular';
  $thin:'Lato-Light';
@@ -17,6 +19,12 @@
 
 /* ========= Color Pallets ========= */
 
+$blue:#6bbade;
+$purple:#c785da;
+$orange:#f2a67e;
+$yellow:#e1ca70;
+$green:#94be68;
+$torquoise:#a4dfe3;
 $light-txt:#fff;
 $colored-txt:#66a334;
 $gray-txt:#555;
@@ -28,7 +36,28 @@ $cool-bg:#eee;
 $white:#fff;
 $black:#000;
 $bld:bold;
- * {
+
+.blue{background-color: $blue;}
+.green{background-color: $green;}
+.orange{background-color: $orange;}
+.yellow{background-color: $yellow;}
+.torquoise{background-color: $torquoise;}
+.purple{background-color: $purple;}
+
+h1 {
+    font-size: 18px;
+    font-family: $ultra-bold;
+    letter-spacing: 5px;
+    &:after {
+        content: " ";
+        border-bottom: 4px solid $black;
+        display: table;
+        width: 40px;
+        margin-top: 10px;
+    }
+}
+
+* {
     font-size: $pars-size;
     color: $black;
     font-family: $pars;
@@ -55,7 +84,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: $pars;
-    background: #f7f7f7;
+    background: $white;
 }
 /* Custom Colors */
 
@@ -394,18 +423,21 @@ body.menu-active div#content .menu-trigger {
         overflow: hidden;
         padding: 80px 20px;
         min-height: 400px;
-        box-shadow: 0px 2px 2px #ddd;
         cursor: pointer;
         @include transition(all .2s ease-in-out);
-        &:hover {
-            background-color: #f7f7f7;
-            @include transition(all .2s ease-in-out);
+
+        & h1 {
+            font-size: 18px;
+            font-family: $ultra-bold;
         }
-        @media only screen and (max-width: 640px) {
-            border-top: 1px solid #ddd;
+
+        & p {
+            font-size: 14px;
+            font-family: $thin;
         }
+
         & img {
-            width: 25%;
+            width: 60%;
             @media only screen and (max-width: 1024px) {
                 width: 35%;
             }
@@ -421,12 +453,143 @@ body.menu-active div#content .menu-trigger {
         }
     }
 }
-.img-con {
+
+.gw {
+    background: url('../img/3d-bg.jpg') no-repeat;
+    background-size: cover;
     overflow: hidden;
-    padding: 0;
+    padding: 10% 0%;
     margin: 0;
     position: relative;
+
+    h2 {
+        font-size: 110px;
+        font-family: $work-number;
+        line-height: 70px;
+        color: $white;
+        margin:0;
+        float:left;
+    }
+
+    
+    .works-description {
+        position: absolute;
+        bottom: 0;
+        padding: 30px;
+
+        span {
+            float:left;
+            color: $white;
+            font-family: $thin;
+            width: 70%;
+            margin-left: 20px;
+
+            h5 {
+                font-size: 18px;
+                font-family: $ultra-bold;
+                color: $white;
+                letter-spacing: 2px;
+                margin:0;  
+            }
+
+        }
+    }
+
+    & img {
+        width: 50%;
+    }
+
 }
+
+.logos {
+    background: url('../img/project-logos.jpg') no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    min-height: 700px;
+    margin: 0;
+    position: relative;
+
+    h2 {
+        font-size: 110px;
+        font-family: $work-number;
+        line-height: 70px;
+        color: $black;
+        margin:0;
+        float:left;
+    }
+
+    
+    .works-description {
+        position: absolute;
+        bottom: 0;
+        padding: 30px;
+        background-color: $white;
+        width: 100%;
+        
+        span {
+            float:left;
+            color: $black;
+            font-family: $thin;
+            width: 70%;
+            margin-left: 20px;
+
+            h5 {
+                font-size: 18px;
+                font-family: $ultra-bold;
+                color: $black;
+                letter-spacing: 2px;
+                margin:0;  
+            }
+
+        }
+    }
+}
+
+
+
+.works-content {
+    overflow: hidden;
+    padding: 30% 0%;
+    margin: 0;
+    position: relative;
+
+    h2 {
+        font-size: 110px;
+        font-family: $work-number;
+        line-height: 70px;
+        color: $white;
+        margin:0;
+        float:left;
+    }
+
+    & img {
+        width: 50%;
+    }
+
+    .works-description {
+        position: absolute;
+        bottom: 0;
+        padding: 30px;
+
+        span {
+            float:left;
+            color: $white;
+            font-family: $thin;
+            width: 70%;
+            margin-left: 20px;
+
+            h5 {
+                font-size: 18px;
+                font-family: $ultra-bold;
+                color: $white;
+                letter-spacing: 2px;
+                margin:0;  
+            }
+
+        }
+    }
+}
+
 .works-con {
     background: $white;
     overflow: hidden;
@@ -493,11 +656,27 @@ body.menu-active div#content .menu-trigger {
     }
 }
 .about-con {
-    background: url('../img/about-bg.jpg') center top repeat;
     overflow: hidden;
     margin-top: 50px;
-    box-shadow: 0px 2px 2px #ddd;
-    background-size: cover;
+    padding: 10% 0;
+
+    h6 {
+        font-family: $bold;
+        font-size: 14px;
+        line-height: 14px;
+        padding:0;
+        margin:0;
+    }
+
+    p {
+        font-family: $thin;
+        margin: 5px;
+    }
+
+    i {
+        margin-left: 10px;
+    }
+
     & img {
         cursor: pointer;
         opacity: 1;
@@ -552,6 +731,7 @@ button.view-mre {
     font-size: 12px;
     color: $black;
     background: none;
+    float: right;
     margin: 25px 0;
     padding: 12px 50px;
     outline: none;
@@ -648,7 +828,7 @@ h1.section-hdrs {
     }
 }
 
-h1.intro {
+h2.intro {
     font-size: 60px;
     line-height: 70px;
     font-family: $bold;
