@@ -49,19 +49,40 @@
     </div>
 
     <!-- ======= Slider Menu on Mobile ========= -->
-    <nav id="slide-menu">
-        <ul>
-            <h1 class="slide-title">MAIN MENU</h1>
+    <div class="wfull grid" id="slide-menu">
+        <ul class="c6">
+            <h1>MAIN MENU</h1>
             <li data-wow-delay=".3s"> <a href="#home">Home</a> 
             </li>
             <li data-wow-delay=".5s"> <a href="#service"> Service</a> 
             </li>
             <li data-wow-delay=".7s"> <a href="#works">Works</a> 
             </li>
-            <li data-wow-delay="1s"> <a href="#about">About</a> v
+            <li data-wow-delay="1s"> <a href="#about">About</a>
             </li>
         </ul>
-    </nav>
+
+
+        <div class="c6 contact">
+           <h1> HIT MY INBOX </h1>
+           <p>jenrielzany@gmail.com </p>
+           <p>+63 932 1100 591</p>
+
+           <h1> MY LOCATION </h1>
+           <p> Unit IV Brgy. OPRRA Kalunasan,</p>
+           <p> Cebu City, PH 6000</p>
+            
+            <span>
+                <h5> GET TO KNOW ME MORE </h5>
+
+               <a href="https://www.behance.net/zanygd" target="_blank"> Behance </a>
+               <a href="https://github.com/jenrielzany" target="_blank"> Github </a>
+               <a href="https://www.facebook.com/jenrielzany" target="_blank"> Facebook </a>
+           </span>
+
+        </div>
+    </div>
+    
     <!-- Content panel -->
     <div id="content">
         <div class="menu-trigger" data-wow-delay=".5s">
@@ -245,8 +266,12 @@
     <div class="about-con" id="about">
         <div class="w1600 grid">
             <div class="c6">
-                <h6>Copyright &copy; 2015. Zany Graphics & Designs. All Rights Reserved.</h6>
+                <h6>Copyright &copy; 2015. Zany Graphics and Designs. All Rights Reserved.</h6>
                 <p>Everything is made with Passion and Love <i class="fa fa-heart red"></i></p>
+            </div>
+
+            <div class="c6">
+                
             </div>
         </div>
     </div>
