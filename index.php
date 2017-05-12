@@ -267,11 +267,10 @@
         <div class="w1600 grid">
             <div class="c6">
                 <h6>Copyright &copy; 2015. Zany Graphics and Designs. All Rights Reserved.</h6>
-                <p>Everything is made with Passion and Love <i class="fa fa-heart red"></i></p>
             </div>
 
             <div class="c6">
-                
+                <p>Everything is made with Passion and Love <i class="fa fa-heart red"></i></p>
             </div>
         </div>
     </div>

@@ -276,6 +276,25 @@ div#slide-menu {
     z-index: 9;
     padding:25px;
 
+    &::-webkit-scrollbar { 
+        display: none; 
+    }
+
+    &::-moz-scrollbar { 
+        display: none; 
+    }
+
+    &::-o-scrollbar { 
+        display: none; 
+    }
+
+    @media (max-width: 480px) {
+        overflow-x:hidden;
+        overflow-y: scroll;
+        left: -100%;
+        width: 100% !important;
+    }
+
     h1 {
         color: $light-gray;
         font-size: 14px;
@@ -312,6 +331,10 @@ div#slide-menu > ul {
         & i {
             color: $black;
         }
+    }
+
+    @media (max-width: 768px) {
+        height: 40%;
     }
 }
 div#slide-menu > ul li {
@@ -738,11 +761,20 @@ body.menu-active div#content .menu-trigger {
         line-height: 14px;
         padding:0;
         margin:0;
+
+        @media (max-width: 768px) {
+            text-align: center;
+        }
     }
 
     p {
         font-family: $thin;
-        margin: 5px;
+        text-align:right;
+        margin:0;
+
+        @media (max-width: 768px) {
+            text-align: center;
+        }
     }
 
     i {
