@@ -519,6 +519,11 @@ body.menu-active div#content .menu-trigger {
         padding: 80px 20px;
         min-height: 400px;
         cursor: pointer;
+
+        @media (max-width: 480px) {
+            padding: 10% 0;
+        }
+
         @include transition(all .2s ease-in-out);
 
         & h1 {
@@ -534,7 +539,7 @@ body.menu-active div#content .menu-trigger {
         & img {
             width: 60%;
             @media only screen and (max-width: 1024px) {
-                width: 35%;
+                width: 100%;
             }
             @media only screen and (max-width: 768px) {
                 width: 20%;
@@ -555,6 +560,10 @@ body.menu-active div#content .menu-trigger {
     overflow: hidden;
     padding: 10% 0% 5% 0%;
     margin: 0;
+
+    @media (max-width: 480px) {
+        padding: 10% 5%;
+    }
 
     h2 {
         font-size: 110px;
@@ -578,6 +587,10 @@ body.menu-active div#content .menu-trigger {
             font-family: $thin;
             width: 70%;
             margin-left: 20px;
+
+            @media (max-width: 480px) {
+                width: 60%;
+            }
 
             h5 {
                 font-size: 18px;
@@ -604,6 +617,10 @@ body.menu-active div#content .menu-trigger {
     margin: 0;
     position: relative;
 
+    @media (max-width: 480px) {
+        padding: 10% 5%;
+    }
+
     h2 {
         font-size: 110px;
         font-family: $work-number;
@@ -627,6 +644,10 @@ body.menu-active div#content .menu-trigger {
             font-family: $thin;
             width: 70%;
             margin-left: 20px;
+
+            @media (max-width: 480px) {
+                width: 60%;
+            }
 
             h5 {
                 font-size: 18px;
@@ -670,12 +691,20 @@ body.menu-active div#content .menu-trigger {
         clear: both;
         overflow: hidden;
 
+        @media (max-width: 480px) {
+            padding: 10% 5%;
+        }
+
         span {
             float:left;
             color: $white;
             font-family: $thin;
             width: 70%;
             margin-left: 20px;
+
+            @media (max-width: 480px) {
+                width: 60%;
+            }
 
             h5 {
                 font-size: 18px;
