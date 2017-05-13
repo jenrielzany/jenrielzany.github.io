@@ -247,7 +247,7 @@
             <div class="c12 clear">
                 <div class="logos">
                     <div class="works-description">
-                        <h2> 3 </h2>
+                        <h2> 6 </h2>
                         <span>
                             <h5> LOGO COLLECTIONS </h5>
                             I have some collections of logos I made a couple of years ago.
