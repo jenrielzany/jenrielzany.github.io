@@ -43,6 +43,8 @@ $light-gray: #d0d0d0;
 .yellow{background-color: $yellow;}
 .torquoise{background-color: $torquoise;}
 .purple{background-color: $purple;}
+.pull-left{float:left;}
+.pull-right{float:right;}
 
 h1 {
     font-size: 18px;
@@ -139,7 +141,7 @@ body {
                     transform: scale(1.5);
                     -moz-transform: scale(1.5);
                     -webkit-transform: scale(1.5);
-                    border-color: $white !important;
+                    border-color: $black !important;
                 }
             }
             .dots {
@@ -154,31 +156,31 @@ body {
             }
             &:nth-child(2) {
                 .dots {
-                    background: $white;
-                    border: 2px solid $white;
+                    background: $black;
+                    border: 2px solid $black;
                     &:hover {
-                        border: 3px solid $white;
-                        background: $white;
+                        border: 3px solid $black;
+                        background: $black;
                     }
                 }
             }
             &:nth-child(3) {
                 .dots {
-                    background: $white;
-                    border: 2px solid $white;
+                    background: $black;
+                    border: 2px solid $black;
                     &:hover {
-                        border: 3px solid $white;
-                        background: $white;
+                        border: 3px solid $black;
+                        background: $black;
                     }
                 }
             }
             &:nth-child(4) {
                 .dots {
-                    background: $white;
-                    border: 2px solid $white;
+                    background: $black;
+                    border: 2px solid $black;
                     &:hover {
-                        border: 3px solid $white;
-                        background: $white;
+                        border: 3px solid $black;
+                        background: $black;
                     }
                 }
             }
@@ -190,13 +192,13 @@ body {
     height: 10px;
     width: 10px;
     border-radius: 50px;
-    background: $white;
+    background: $black;
     margin: 30px 0;
-    border: 2px solid $white;
+    border: 2px solid $black;
     @include transition(all .2s ease-in-out);
     &:hover, &.active {
-        border: 3px solid $white;
-        background: $white;
+        border: 3px solid $black;
+        background: $black;
         transform: scale(1.1);
         -moz-transform: scale(1.1);
         -webkit-transform: scale(1.1);
@@ -551,9 +553,8 @@ body.menu-active div#content .menu-trigger {
     background: url('../img/3d-bg.jpg') no-repeat;
     background-size: cover;
     overflow: hidden;
-    padding: 10% 0%;
+    padding: 10% 0% 5% 0%;
     margin: 0;
-    position: relative;
 
     h2 {
         font-size: 110px;
@@ -566,7 +567,8 @@ body.menu-active div#content .menu-trigger {
 
     
     .works-description {
-        position: absolute;
+        clear:both;
+        overflow: hidden;
         bottom: 0;
         padding: 30px;
 
@@ -642,9 +644,13 @@ body.menu-active div#content .menu-trigger {
 
 .works-content {
     overflow: hidden;
-    padding: 30% 0%;
+    padding: 35% 0% 5% 0;
     margin: 0;
-    position: relative;
+    height: 100%;
+
+    @media only screen and (max-width:1366px) and (min-width:769px) {
+        height: 950px;
+    }
 
     h2 {
         font-size: 110px;
@@ -655,14 +661,14 @@ body.menu-active div#content .menu-trigger {
         float:left;
     }
 
-    & img {
-        width: 50%;
-    }
+    
 
     .works-description {
-        position: absolute;
         bottom: 0;
         padding: 30px;
+        margin-bottom: 20px;
+        clear: both;
+        overflow: hidden;
 
         span {
             float:left;

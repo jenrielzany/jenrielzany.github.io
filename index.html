@@ -128,7 +128,7 @@
     <div class="srvce" id="service">
         <div class="w1600 grid">
             <div class="c6 clear">
-                <div class="srvc-con wow fadeInUp" data-wow-delay=".2s">
+                <div class="srvc-con wow fadeIn" data-wow-delay=".2s">
                    <div class="c3">
                        <img src="img/clock.png" alt="">
                    </div>
@@ -143,7 +143,7 @@
             </div>
 
             <div class="c6 clear">
-                <div class="srvc-con wow fadeInUp" data-wow-delay=".4s">
+                <div class="srvc-con wow fadeIn" data-wow-delay=".4s">
                    <div class="c3">
                        <img src="img/bulb.png" alt="">
                    </div>
@@ -186,7 +186,7 @@
             
             <div class="c6 clear">
                 <div class="works-content blue wow fadeIn" data-wow-delay=".8s">
-                    <img src="img/vops.png" alt="">
+                    <img src="img/vops.png" alt="" class="pull-right">
 
                     <div class="works-description">
                         <h2> 2 </h2>
@@ -217,13 +217,13 @@
 
             <div class="c6 clear">
                 <div class="works-content orange wow fadeIn" data-wow-delay=".9s">
-                    <img src="img/zgd.png" alt="">
+                    <img src="img/illustrations.png" class="pull-left" alt="">
 
                     <div class="works-description">
                         <h2> 4 </h2>
                         <span>
-                            <h5> ZANY GRAPHICS AND DESIGNS </h5>
-                            I made this one in collaboration with verticalops. SSU.com offers Solar Panels services with free installation when purchase is done.
+                            <h5> ILLUSTRATIONS </h5>
+                            As part of my learning curve. I have made several illustrations and these are some of them.
                         </span>
                     </div>
                 </div>
