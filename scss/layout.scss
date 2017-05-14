@@ -52,7 +52,7 @@ h1 {
     font-weight: bold;
     letter-spacing: 3px;
     &:after {
-        content: " ";
+        content: "";
         border-bottom: 2px solid $black;
         display: table;
         width: 40px;
@@ -246,7 +246,7 @@ body {
         margin:0;
         letter-spacing: 2px;
         &:after {
-            content: " ";
+            content: "";
             border-bottom: 2px solid transparent;
             display: table;
             width: 40px;
@@ -304,7 +304,7 @@ div#slide-menu {
         margin-top: 35px;
         letter-spacing: 2px;
         &:after {
-            content: " ";
+            content: "";
             border-bottom: 2px solid transparent;
             display: table;
             width: 40px;
@@ -357,12 +357,27 @@ div#slide-menu > ul li a {
     @include transition(all 200ms ease-in-out);
     text-decoration: none;
 
+    &:after {
+        content: "";
+        border-bottom: 1px solid transparent;
+        display: table;
+        width: 0;
+        @include transition(all .5s ease-in-out);
+    }
+    
     &:before {
         border-bottom: 3px solid $black;
     }
     &:hover {
         &, i {
             @include transition(all .1s ease-in-out);
+        }
+
+        &:after {
+            content: "";
+            border-bottom: 1px solid $black;
+            display: table;
+            width: 60px;
         }
     }
     & i {
@@ -426,21 +441,21 @@ div.menu-trigger .icon-bar + .icon-bar {
 .menu-active div.menu-trigger .icon-bar:first-of-type {
     border-radius: 10px;
     background-color: $black;
-    top: -3px;
-    left: 4px;
-}
-.menu-active div.menu-trigger .icon-bar:nth-of-type(2) {
-    opacity: 0;
-}
-.menu-active div.menu-trigger .icon-bar:last-of-type {
-    background-color: $black;
+    top: 0;
+    left: 0;
     width: 20px;
-    top: -12px;
-    left: 4px;
 
     &:hover {
         width: 30px;
     }
+}
+.menu-active div.menu-trigger .icon-bar:nth-of-type(2) {
+    opacity: 1;
+}
+.menu-active div.menu-trigger .icon-bar:last-of-type {
+    background-color: $black;
+    opacity: 0;
+    width: 20px;
 }
 div#content div.menu-trigger:hover {
     background: none;
@@ -950,7 +965,7 @@ h1.section-hdrs {
     line-height: 35px;
     color: $black;
     &:after {
-        content: " ";
+        content: "";
         border-bottom: 4px solid #e56d39;
         display: table;
         width: 50px;
