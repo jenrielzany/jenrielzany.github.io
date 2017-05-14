@@ -43,6 +43,9 @@ $light-gray: #d0d0d0;
 .yellow{background-color: $yellow;}
 .torquoise{background-color: $torquoise;}
 .purple{background-color: $purple;}
+/* Floats */
+
+.clear {margin: 0 !important;padding: 0 !important;}
 .pull-left{float:left;}
 .pull-right{float:right;}
 
@@ -471,18 +474,6 @@ body.menu-active div#content .menu-trigger {
 }
 /* End of Side Slider Menu */
 
-/* Floats */
-
-.push-to-right {
-    float: right;
-}
-.push-to-left {
-    float: left;
-}
-.clear {
-    margin: 0 !important;
-    padding: 0 !important;
-}
 /* ========== Main Styles ========== */
 
 .works-section {
@@ -632,9 +623,6 @@ body.menu-active div#content .menu-trigger {
     margin: 0;
     position: relative;
 
-    @media (max-width: 480px) {
-        padding: 10% 5%;
-    }
 
     h2 {
         font-size: 110px;
