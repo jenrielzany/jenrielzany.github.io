@@ -66,7 +66,7 @@
         <div class="c6 contact">
            <h1> HIT MY INBOX </h1>
            <p>jenrielzany@gmail.com </p>
-           <p>+63 932 1100 591</p>
+           <p>+63 923 516 9451</p>
 
            <h1> MY LOCATION </h1>
            <p> Unit IV Brgy. OPRRA Kalunasan,</p>
