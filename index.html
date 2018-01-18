@@ -66,7 +66,7 @@
         <div class="c6 contact">
            <h1> HIT MY INBOX </h1>
            <p>jenrielzany@gmail.com </p>
-           <p>+63 923 516 9451</p>
+           <p>+63 932 110 0258</p>
 
            <h1> MY LOCATION </h1>
            <p> Unit IV Brgy. OPRRA Kalunasan,</p>
@@ -78,6 +78,7 @@
                <a href="https://www.behance.net/zanygd" target="_blank"> Behance </a>
                <a href="https://github.com/jenrielzany" target="_blank"> Github </a>
                <a href="https://www.facebook.com/jenrielzany" target="_blank"> Facebook </a>
+               <a href="https://dribbble.com/jenriel_zny" target="_blank"> Dribbble </a>
            </span>
 
         </div>
