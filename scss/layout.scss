@@ -323,6 +323,22 @@ div#slide-menu {
     z-index: 9;
     padding:25px;
 
+    button {
+        padding: 10px 25px;
+        background-color: $black;
+        border: 1px solid $black;
+        color: $white;
+        font-size: 12px;
+        font-family: 'Lato-Black';
+        letter-spacing: 2px;
+        @include transition(all 300ms ease-in-out); 
+
+        &:hover {
+            background-color: transparent;
+            color: $black;
+        }
+    }
+
     &::-webkit-scrollbar { 
         display: none; 
     }
@@ -356,6 +372,7 @@ div#slide-menu {
         }
     }
 }
+
 div#slide-menu > ul {
     display: block;
     color: $black;

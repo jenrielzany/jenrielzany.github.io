@@ -81,6 +81,12 @@
                <a href="https://dribbble.com/jenriel_zny" target="_blank"> Dribbble </a>
            </span>
 
+           <span>
+                <a href="./img/jenriel-resume.pdf" download> 
+                    <button>DOWNLOAD CV</button>
+                </a>
+           </span>
+
         </div>
     </div>
     
