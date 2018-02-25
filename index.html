@@ -93,181 +93,235 @@
         </div>
     </div>
     <!-- ======= End of Slider Menu on Mobile ========= -->
+    
+    <!-- Start of Header -->
+    <div class="main-hdr" data-wow-delay=".8s" id="home">
+        <div class="w1600 grid">
+            <div class="row">
+                <div class="hdr-con">
+                    <div class="c5">
+                        <div class="logo-holder" data-wow-delay="2s">
+                            <img src="img/logo.png" alt="">
 
+                            <div class="bubbles"></div>
+                            <div class="bubbles"></div>
+                            <div class="bubbles"></div>
+                            <div class="bubbles"></div>
+                            <div class="bubbles"></div>
+                        </div>
+                    </div>
 
-    <!-- ==========Side Circle Selectors ========== -->
+                    <div class="c7 text-left">  
+                        <h2 class="intro wow FadeIn"> Jenriel Jadraque </h2>
+                        <h3 class="job-ttle wow fadeInUp"> UI/UX Designer. Front-end Developer. From Cebu City, Philippines! </h3>
 
-    <div class="hdr-dots" id="home">
-        <div class="main-hdr" data-wow-delay=".8s">
-            <div class="w1600 grid">
-
-                <div class="row">
-                    <div class="hdr-con">
-                        <div class="c3"></div>
-                            <div class="c6 center-block">
-                                <p class="cntr">
-                                    <h2 class="intro wow FadeIn"> Jenriel Jadraque </h1>
-                                    <h3 class="job-ttle wow fadeInUp"> UI/UX DESIGNER. FRONT-END DEVELOPER. From Cebu City, Philippines! </h3>
-
-                                    <p class=" wow fadeIn" data-wow-delay="1s">
-                                        <a href="#works">
-                                            <button class="hdr-btn"> <i class="fa fa-chevron-down"></i>Let's get started</button>
-                                        </a>
-                                        <a href="http://gmail.com" target="_blank">
-                                            <button class="hdr-btn"> <i class="fa fa-paper-plane-o"></i>jenrielzany@gmail.com</button>
-                                        </a>
-                                    </p>
-                                </p>
-                            </div>
-                        <div class="c3"></div>
+                        <p class="wow fadeIn" data-wow-delay="1s">
+                            <a href="#service">
+                                <button class="hdr-btn">Let's get started</button>
+                            </a>
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
+        <div class="mouse">
+            <div class="mouse-wheel"></div>
+        </div>
+    </div>
+    <!-- End of Header -->
+
+    <!-- Start of Services -->
     <div class="srvce" id="service">
-        <div class="w1600 grid">
-            <div class="c6 clear">
-                <div class="srvc-con wow fadeIn" data-wow-delay=".2s">
-                   <div class="c3">
-                       <img src="img/clock.png" alt="">
-                   </div>
-
-                   <div class="c9">
-                        <h1> RIGHT ON TIME </h1>
-                       <p>
-                           I can finish projects right before the time you expected it to get done! You will never see it coming and just get surprised how things happen so fast! WINKS!
-                       </p>
-                   </div>
-                </div>
+        <div class="w960 grid srvc-con">
+            <div class="c4">
+                <h2 class="fw-bold"> WHAT I DO. WHAT I OFFER </h2>
             </div>
 
-            <div class="c6 clear">
-                <div class="srvc-con wow fadeIn" data-wow-delay=".4s">
-                   <div class="c3">
-                       <img src="img/bulb.png" alt="">
-                   </div>
-
-                   <div class="c9">
-                        <h1> GENUINE CONCEPTS </h1>
-                       <p>
-                            I create genius concepts that makes an obvious relevance to your business! From Flat to Realism to Minimalism, I can do all that for you! SMILES!                       </p>
-                   </div>
-                </div>
+            <div class="c8">
+                <p class="clear">
+                    I can finish projects right before the time you expected it to get done! You will never see it coming and just get surprised how things happen so fast!
+                    I create genius concepts that makes an obvious relevance to your business! From Flat to Realism to Minimalism, I can do all that for you.
+                </p>
             </div>
         </div>
     </div>
 
+    <div class="service-section">
+        <div class="w1600 grid">
+            <div class="c4 wow fadeIn" data-wow-delay=".3s">
+                <div class="service-wrapper blue">
+                    <img src="img/graphic-designs.png" alt="">
+                </div>
+
+                <h3> GRAPHICS AND DESIGNS</h3>
+                <p>
+                    Amet quaerat delectus sapiente quo! Quo delectus ab eius ratione, accusantium provident cupiditate, 
+                    eveniet, consectetur tempore id voluptatibus illo.
+                </p>
+            </div>
+
+            <div class="c4 wow fadeIn" data-wow-delay=".5s">
+                <div class="service-wrapper orange">
+                    <img src="img/branding.png" alt="">
+                </div>
+
+                <h3> BRANDING </h3>
+                <p>
+                    Quo delectus ab eius ratione, accusantium provident cupiditate, 
+                    eveniet, consectetur tempore id voluptatibus illo.
+                </p>
+            </div>
+
+            <div class="c4 wow fadeIn" data-wow-delay=".7s">
+                <div class="service-wrapper purple">
+                    <img src="img/web.png" alt="">
+                </div>
+
+                <h3> SLICK WEB UI/UX</h3>
+                <p>
+                    Eius ratione, accusantium provident cupiditate, 
+                    eveniet, consectetur tempore id voluptatibus illo.
+                </p>
+            </div>
+
+            <div class="mouse">
+                <div class="mouse-wheel"></div>
+                <p class="text-center"> Keep scrolling! </p>
+            </div>
+        </div>
+    </div>
+    <!-- End of Services -->
+
+    <!-- Start of Works -->
     <div class="w1600 grid" id="works">
+       <div class="works-section row wow fadeIn"  data-wow-delay=".7s">
+            <div class="c8 clear">
+                <img src="img/gw-dash.jpg" alt="">
+            </div>
+            
+            
+            <div class="c4">
+                <div class="works-contents">
+                    <h2>
+                        Green Wire Internal<br>
+                        Dashboard.
+                    </h2>
+
+                    <p>
+                        The main function of the app is that agents are able to know and get updates of their performance in the company.
+                    </p>
+
+                    <a href="https://www.behance.net/gallery/29179505/Greenwire-Outsourcing-Inc-Internal-Dashboard" target="_blank"><button> VIEW PROJECT </button></a>
+                </div>
+            </div>
+       </div> 
+
+       <div class="works-section row wow fadeIn gray-bg"  data-wow-delay=".7s">
+            <div class="c8 clear">
+                <img src="img/vops-informative.jpg" alt="">
+            </div>
+            
+            
+            <div class="c4">
+                <div class="works-contents">
+                    <h2>
+                        Verticalops<br>
+                        Informative Website.
+                    </h3>
+
+                    <p>
+                        The main function of the app is that agents are able to know and get updates of their performance in the company.
+                    </p>
+
+                    <a href="http://verticalops.com/"><button> VIEW PROJECT </button></a>
+                </div>
+            </div>
+       </div>
+
+       <div class="works-section row wow fadeIn gray-bg"  data-wow-delay=".7s">
+            <div class="c8 clear">
+                <img src="img/icons.jpg" alt="">
+            </div>
+            
+            
+            <div class="c4">
+                <div class="works-contents">
+                    <h2>
+                        Illustrations.
+                    </h2>
+
+                    <p>
+                        As part of my learning curve. I have made several illustrations and these are some of them.
+                    </p>
+
+                    <a href="https://dribbble.com/jenriel_zny"><button> VIEW PROJECT </button></a>
+                </div>
+            </div>
+       </div> 
+
+       <div class="works-section row wow fadeIn gray-bg"  data-wow-delay=".7s">
+            <div class="c8 clear">
+                <img src="img/market-websites.jpg" alt="">
+            </div>
+            
+            
+            <div class="c4">
+                <div class="works-contents">
+                    <h2>
+                        Marketing Websites.
+                    </h2>
+
+                    <p>
+                        There are couple of these pages. The main purpose of these pages is to sell products on Traffic and to be entertained by the call center.
+                    </p>
+
+                    <a href="https://www.behance.net/gallery/28957473/Product-Marketing-Websites"><button> VIEW PROJECT </button></a>
+                </div>
+            </div>
+       </div> 
+
+       <div class="works-section row wow fadeIn gray-bg"  data-wow-delay=".7s">
+            <div class="c8 clear">
+                <img src="img/logo-collections.jpg" alt="">
+            </div>
+            
+            
+            <div class="c4">
+                <div class="works-contents">
+                    <h2>
+                        Logo Collections.
+                    </h2>
+
+                    <p>
+                        I have some collections of logos and other fun illustrations I made a couple of years ago.
+                    </p>
+
+                    <a href="https://dribbble.com/jenriel_zny"><button> VIEW PROJECT </button></a>
+                </div>
+            </div>
+       </div> 
+    </div>
+
+    <div class="w1600 grid quick-links">
         <div class="row">
-            <div class="c12">
-                <h1> FEATURED WORKS </h1>
+            <div class="c4">
+            </div>
+
+            <div class="c8">
+                <h2 class="fw-bold"> CHECK PROJECTS FROM </h2>
+                <a href="https://dribbble.com/jenriel_zny" target="_blank"><button> <i class="fa fa-dribbble"></i> Dribble  </button></a>
+                <a href="https://www.behance.net/zanygd" target="_blank"><button> <i class="fa fa-behance"></i> Behance  </button></a>
             </div>
         </div>
     </div>
-
-    <div class="works-section">
-        <div class="w1600 grid">
-
-            <div class="c6 clear">
-                <div class="works-content green wow fadeIn" data-wow-delay=".7s">
-                    <img src="img/solar-savings.png" alt="">
-
-                    <div class="works-description">
-                        <h2> 1 </h2>
-                        <span>
-                            <h5> SOLAR SAVINGS USA </h5>
-                            I made this one in collaboration with verticalops. SSU.com offers Solar Panels services with free installation when purchase is done.
-                        </span>
-                    </div>
-                </div>
-            </div>
-
-            
-            <div class="c6 clear">
-                <div class="works-content blue wow fadeIn" data-wow-delay=".8s">
-                    <img src="img/vops.png" alt="" class="pull-right">
-
-                    <div class="works-description">
-                        <h2> 2 </h2>
-                        <span>
-                            <h5> VERTICALOPS INFORMATIVE </h5>
-                            Made this website for Verticalops last year. This has all the information that Verticalops can offer latest technolgies needed for a business.
-                        </span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="c12 clear">
-                <div class="gw">
-                    <div class="c6"></div>
-                    <div class="c6">
-                        <img src="img/gw.png" alt="">
-                    </div>
-
-                    <div class="works-description">
-                        <h2> 3 </h2>
-                        <span>
-                            <h5> GREENWIRE INTERNAL DASHBOARD </h5>
-                            The main function of the app is that agents are able to know and get updates of their performance in the company.
-                        </span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="c6 clear">
-                <div class="works-content orange wow fadeIn" data-wow-delay=".9s">
-                    <img src="img/illustrations.png" class="pull-left" alt="">
-
-                    <div class="works-description">
-                        <h2> 4 </h2>
-                        <span>
-                            <h5> ILLUSTRATIONS </h5>
-                            As part of my learning curve. I have made several illustrations and these are some of them.
-                        </span>
-                    </div>
-                </div>
-            </div>
-
-            
-            <div class="c6 clear">
-                <div class="works-content torquoise wow fadeIn" data-wow-delay="1s">
-                    <img src="img/marketing.png" alt="">
-
-                    <div class="works-description">
-                        <h2> 5 </h2>
-                        <span>
-                            <h5> MARKETING WEBSITES </h5>
-                            There are couple of these pages. The main purpose of these pages is to sell products on Traffic and to be entertained by the call center.
-                        </span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="c12 clear">
-                <div class="logos">
-                    <div class="works-description">
-                        <h2> 6 </h2>
-                        <span>
-                            <h5> LOGO COLLECTIONS </h5>
-                            I have some collections of logos I made a couple of years ago.
-                        </span>
-
-                        <a href="http://behance.net/zanygd" target="_blank">
-                            <button class="view-mre">VIEW MORE PROJECTS</button>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-
+    <!-- End of Works -->
+    
+    <!-- Start of Footer -->
     <div class="about-con" id="about">
         <div class="w1600 grid">
             <div class="c6">
-                <h6>Copyright &copy; 2015. Zany Graphics and Designs. All Rights Reserved.</h6>
+                <h6>Copyright &copy; 2018. Zany Graphics and Designs. All Rights Reserved.</h6>
             </div>
 
             <div class="c6">
@@ -275,6 +329,9 @@
             </div>
         </div>
     </div>
+    <!-- Start of Footer -->
+
+    
 
     <!-- ================ Scripts ================ -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>

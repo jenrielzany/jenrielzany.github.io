@@ -3179,3 +3179,128 @@ Copyright (c) 2015 Daniel Eden
   -webkit-animation-name: slideOutUp;
   animation-name: slideOutUp;
 }
+
+//Bubble Animation
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes bubbleOne {
+    0%   {top: -15px;}
+    50%  {top: 30px; left: 350px; }
+    50%  {top: 30px; left: 350px; }
+    100%  {top: -15px;}
+
+}
+
+/* Standard syntax */
+@keyframes bubbleOne {
+    0%   {top: -15px;}
+    50%  {top: 30px; left: 350px; }
+    50%  {top: 30px; left: 350px; }
+    100%  {top: -15px;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes bubbleTwo {
+    0%   {top: -15px;}
+    50%  {top: 270px; left: 300px;}
+    50%  {top: 270px; left: 300px;}
+    100%  {top: 310px;}
+
+}
+
+/* Standard syntax */
+@keyframes bubbleTwo {
+    0%   {top: 310px;}
+    50%  {top: 290px; left: 300px;}
+    50%  {top: 290px; left: 300px;}
+    100%  {top: 310px;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes bubbleThree {
+    0%   {top: -15px;}
+    50%  {top: 270px; left: 300px;}
+    50%  {top: 270px; left: 300px;}
+    100%  {top: 310px;}
+
+}
+
+/* Standard syntax */
+@keyframes bubbleThree {
+    0%   {top: -20px;}
+    50%  {top: 20px;}
+    50%  {top: 20px;}
+    100%  {top: -20px;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes bubbleFour {
+    0%   {top: -15px;}
+    50%  {top: 270px; left: 30px;}
+    50%  {top: 270px; left: 30px;}
+    100%  {top: 310px;}
+
+}
+
+/* Standard syntax */
+@keyframes bubbleFour {
+    0%   {top: -20px;}
+    50%  {top: 270px; left: 30px;}
+    50%  {top: 270px; left: 30px;}
+    100%  {top: -20px;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes bubbleFive {
+    0%   {top: -15px;}
+    50%  {top: 270px; right: 530px;}
+    50%  {top: 270px; right: 530px;}
+    100%  {top: 310px;}
+
+}
+
+/* Standard syntax */
+@keyframes bubbleFive {
+    0%   {top: -20px;}
+    50%  {top: 270px; left: 530px;}
+    50%  {top: 270px; left: 530px;}
+    100%  {top: -20px;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes bubbleSix {
+    0%   {top: -15px;}
+    50%  {top: 270px; right: 130px;}
+    50%  {top: 270px; right: 130px;}
+    100%  {top: 310px;}
+
+}
+
+/* Standard syntax */
+@keyframes bubbleSix {
+    0%   {top: 80px;}
+    50%  {top: 270px; left: 1130px;}
+    50%  {top: 270px; left: 1130px;}
+    100%  {top: -20px;}
+}
+
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes scroll {
+    0%   {margin-top: 5px;}
+    25%  {margin-top: 8px;}
+    50%  {margin-top: 8px;}
+    75%  {margin-top: 8px;}
+    100%  {margin-top: 5px;}
+
+}
+
+/* Standard syntax */
+@keyframes scroll {
+    0%   {margin-top: 5px;}
+    25%  {margin-top: 8px;}
+    50%  {margin-top: 8px;}
+    75%  {margin-top: 8px;}
+    100%  {margin-top: 5px;}
+}
+
