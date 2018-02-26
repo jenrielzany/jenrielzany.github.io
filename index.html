@@ -319,6 +319,7 @@
                 <h2 class="fw-bold"> CHECK PROJECTS FROM </h2>
                 <a href="https://dribbble.com/jenriel_zny" target="_blank"><button> <i class="fa fa-dribbble"></i> Dribble  </button></a>
                 <a href="https://www.behance.net/zanygd" target="_blank"><button> <i class="fa fa-behance"></i> Behance  </button></a>
+                <a href="https://unsplash.com/@jenrielzany" target="_blank"><button> <i class="fa fa-camera"></i> Unsplash  </button></a>
             </div>
         </div>
     </div>
