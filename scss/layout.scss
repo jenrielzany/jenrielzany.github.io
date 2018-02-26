@@ -767,8 +767,16 @@ body.menu-active div#content .menu-trigger {
 
 .works-section {
     margin: 20% 0;
-    box-shadow: 0px 0 120px #ddd;
     background: #ffffff;
+    box-shadow: 0px 0 120px #f2f2f2; 
+    @include transition(all .3s ease-in-out);
+
+    &:hover {
+        box-shadow: 0px 0 120px #ddd;
+        -webkit-transform: scale(1.005);
+        -ms-transform: scale(1.005);
+        transform: scale(1.005);    
+    }
 
     &:last-child {
         margin: 20% 0 5% 0;
