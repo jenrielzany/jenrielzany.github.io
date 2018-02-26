@@ -162,8 +162,8 @@
 
                 <h3> GRAPHICS AND DESIGNS</h3>
                 <p>
-                    Amet quaerat delectus sapiente quo! Quo delectus ab eius ratione, accusantium provident cupiditate, 
-                    eveniet, consectetur tempore id voluptatibus illo.
+                    Top of the line graphical designs in different variations that enables me to incorporate my
+                    talent to whatever you want.
                 </p>
             </div>
 
@@ -174,8 +174,8 @@
 
                 <h3> BRANDING </h3>
                 <p>
-                    Quo delectus ab eius ratione, accusantium provident cupiditate, 
-                    eveniet, consectetur tempore id voluptatibus illo.
+                    Minimalism, realism and trendy identity is always in my bucket list in creating my brands. All you have
+                    to do is say the words and we'll take it from there.
                 </p>
             </div>
 
@@ -186,8 +186,8 @@
 
                 <h3> SLICK WEB UI/UX</h3>
                 <p>
-                    Eius ratione, accusantium provident cupiditate, 
-                    eveniet, consectetur tempore id voluptatibus illo.
+                    Clean, easy to navigate and content-focused web design is the main goal. Easy for the user, easy for me!
+                    We don't have to do painful stuffs that doesn't make sense.
                 </p>
             </div>
 
@@ -237,7 +237,8 @@
                     </h3>
 
                     <p>
-                        The main function of the app is that agents are able to know and get updates of their performance in the company.
+                        Just a simple informative website for Verticalops. Made this about 3 years ago.
+                         They have an amazing technology to offer and clients cannot say NO to them.
                     </p>
 
                     <a href="http://verticalops.com/"><button> VIEW PROJECT </button></a>

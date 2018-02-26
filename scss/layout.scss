@@ -849,7 +849,7 @@ body.menu-active div#content .menu-trigger {
 .about-con {
     overflow: hidden;
     margin-top: 50px;
-    padding-bottom: 10%;
+    padding-bottom: 5%;
 
     h6 {
         font-family: $bold;
@@ -1134,6 +1134,17 @@ span.lnks {
     position: relative;
     -webkit-animation: bubbleThree 5s infinite cubic-bezier(0.66, 0, 0, 1); /* Safari 4.0 - 8.0 */
     animation: bubbleThree 5s infinite cubic-bezier(0.66, 0, 0, 1);
+    
+    @media(max-width: 480px) {
+        width: 350px;
+        height: 350px;
+    }
+
+    @media(max-width: 375px) {
+        width: 300px;
+        height: 300px;
+    }
+
 
     .bubbles {
         position: absolute;

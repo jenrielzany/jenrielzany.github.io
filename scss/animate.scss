@@ -3269,16 +3269,15 @@ Copyright (c) 2015 Daniel Eden
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes bubbleSix {
-    0%   {top: -15px;}
-    50%  {top: 270px; right: 130px;}
-    50%  {top: 270px; right: 130px;}
-    100%  {top: 310px;}
-
+    0%   {top: 80px;}
+    50%  {top: 270px; left: 1130px;}
+    50%  {top: 270px; left: 1130px;}
+    100%  {top: -20px;}
 }
 
 /* Standard syntax */
 @keyframes bubbleSix {
-    0%   {top: 80px;}
+    0%   {top: -20px;}
     50%  {top: 270px; left: 1130px;}
     50%  {top: 270px; left: 1130px;}
     100%  {top: -20px;}
