@@ -13,9 +13,9 @@
     <title>Zany Graphics &amp; Designs</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="min-css/layout.min.css">
+    <link rel="stylesheet" href="min-css/font-awesome.min.css">
     <link rel="shortcut icon" href="img/favicon.png" />
 </head>
 
@@ -344,6 +344,7 @@
     <!-- ================ Scripts ================ -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/slide.js"></script>
+    <script src="js/jquery.min.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/smoothscroll.js"></script>

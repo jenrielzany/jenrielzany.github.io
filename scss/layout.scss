@@ -138,6 +138,19 @@ body {
     top: 40%;
     right: 0;
     z-index: 100;
+
+    .dots {
+        height: 10px;
+        width: 10px;
+        border-radius: 50px;
+        margin: 30px 0;
+        border: 2px solid $black;
+        @include transition(all .2s ease-in-out);
+        &:hover, &.active {
+            background: $black;
+        }
+    }
+
     ul.circles {
         list-style-type: none;
         margin: 0;
@@ -147,53 +160,40 @@ body {
             visibility: hidden;
         }
         li {
-            .active {
+            a.active {
                 .dots {
-                    width: 8px;
-                    height: 8px;
-                    transform: scale(1.5);
-                    -moz-transform: scale(1.5);
-                    -webkit-transform: scale(1.5);
-                    border-color: $black !important;
+                    height: 10px;
+                    width: 10px;
+                    border-radius: 50px;
+                    background: $black;
                 }
             }
             .dots {
                 transform: scale(1);
                 -moz-transform: scale(1);
                 -webkit-transform: scale(1);
-                &:hover {
-                    transform: scale(2);
-                    -moz-transform: scale(2);
-                    -webkit-transform: scale(2);
-                }
             }
             &:nth-child(2) {
                 .dots {
                     background: none;
-                    border: 2px solid $black;
                     &:hover {
-                        border: 3px solid $black;
-                        background: none;
+                        background: $black;
                     }
                 }
             }
             &:nth-child(3) {
                 .dots {
                     background: none;
-                    border: 2px solid $black;
                     &:hover {
-                        border: 3px solid $black;
-                        background: none;
+                        background: $black;
                     }
                 }
             }
             &:nth-child(4) {
                 .dots {
                     background: none;
-                    border: 2px solid $black;
                     &:hover {
-                        border: 3px solid $black;
-                        background: none;
+                        background: $black;
                     }
                 }
             }
@@ -222,6 +222,14 @@ body {
         margin-left: 20px;
         @include transition(all .2s ease-in-out);
 
+        @media(max-width:680px) {
+            width:calc(100% / 3.2);
+            margin-left: 3px;
+            padding: 10px;
+            font-size: 9px;
+            letter-spacing: 0px;
+        }
+
         i {
             margin-right: 10px;
         }
@@ -233,22 +241,6 @@ body {
     }
 }
 
-.dots {
-    height: 10px;
-    width: 10px;
-    border-radius: 50px;
-    background: $black;
-    margin: 30px 0;
-    border: 2px solid $black;
-    @include transition(all .2s ease-in-out);
-    &:hover, &.active {
-        border: 3px solid $black;
-        background: $black;
-        transform: scale(1.1);
-        -moz-transform: scale(1.1);
-        -webkit-transform: scale(1.1);
-    }
-}
 /* Side Slider Menu Style */
 
 .contact {
