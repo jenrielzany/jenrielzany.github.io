@@ -16,14 +16,18 @@
 
     <link rel="stylesheet" href="min-css/layout.min.css">
     <link rel="stylesheet" href="min-css/font-awesome.min.css">
+    <link rel="stylesheet" href="min-css/aos.min.css">
     <link rel="shortcut icon" href="img/favicon.png" />
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/jquery.min.js"></script>
 </head>
 
 <body>
 
-<a href="http://webguruawards.com/user/details/ZanyGraphicsandDesigns-261" style="background: url(http://webguruawards.com/awards/GOTD/img_guru_of_the_day_right.png) no-repeat scroll 0 0 rgba(0, 0, 0, 0);width:75px;height:117px;position:fixed;top:70px;right:0;z-index:99999;" target="_blank"></a>
+<!-- <a href="http://webguruawards.com/user/details/ZanyGraphicsandDesigns-261" style="background: url(http://webguruawards.com/awards/GOTD/img_guru_of_the_day_right.png) no-repeat scroll 0 0 rgba(0, 0, 0, 0);width:75px;height:117px;position:fixed;top:70px;right:0;z-index:99999;" target="_blank"></a> -->
     <!-- ==========Side Circle Selectors ========== -->
-    <div class="circle-selectors wow fadeIn" data-wow-delay="1s">
+   <!--  <div class="circle-selectors wow fadeIn" data-wow-delay="1s">
         <ul class="circles">
             <li>
                 <a href="#home">
@@ -46,19 +50,19 @@
                 </a>
             </li>
         </ul>
-    </div>
+    </div> -->
 
     <!-- ======= Slider Menu on Mobile ========= -->
     <div class="wfull grid" id="slide-menu">
         <ul class="c6">
             <h1>MAIN MENU</h1>
-            <li data-wow-delay=".3s"> <a href="#home">Home</a> 
+            <li data-aos="fade-in" data-aos-delay="1000" > <a href="#home">Home</a> 
             </li>
-            <li data-wow-delay=".5s"> <a href="#service"> Service</a> 
+            <li data-aos="fade-in" data-aos-delay="1000" > <a href="#service"> Service</a> 
             </li>
-            <li data-wow-delay=".7s"> <a href="#works">Works</a> 
+            <li data-aos="fade-in" data-aos-delay="1000" > <a href="#works">Works</a> 
             </li>
-            <li data-wow-delay="1s"> <a href="#about">About</a>
+            <li data-aos="fade-in" data-aos-delay="1000" > <a href="#about">About</a>
             </li>
         </ul>
 
@@ -98,6 +102,10 @@
             <span class="icon-bar"></span>
         </div>
     </div>
+
+    <div class="logo-holder fadeIn wow" data-wow-delay=".5s">
+        <img src="img/logo.png" alt="">
+    </div>
     <!-- ======= End of Slider Menu on Mobile ========= -->
     
     <!-- Start of Header -->
@@ -105,27 +113,12 @@
         <div class="w1600 grid">
             <div class="row">
                 <div class="hdr-con">
-                    <div class="c5">
-                        <div class="logo-holder" data-wow-delay="2s">
-                            <img src="img/logo.png" alt="">
-
-                            <div class="bubbles"></div>
-                            <div class="bubbles"></div>
-                            <div class="bubbles"></div>
-                            <div class="bubbles"></div>
-                            <div class="bubbles"></div>
-                        </div>
-                    </div>
-
-                    <div class="c7 text-left">  
-                        <h2 class="intro wow FadeIn"> Jenriel Jadraque </h2>
-                        <h3 class="job-ttle wow fadeInUp"> UI/UX Designer. Front-end Developer. From Cebu City, Philippines! </h3>
-
-                        <p class="wow fadeIn" data-wow-delay="1s">
-                            <a href="#service">
-                                <button class="hdr-btn">Let's get started</button>
-                            </a>
-                        </p>
+                    <div class="header-bg fadeIn wow" data-wow-delay="1s"></div>
+                        <div class="header-overlay fadeIn wow" data-wow-delay=".5s"></div>
+                    <div class="c10 text-left">  
+                        <h1 class="title" data-aos="fade-up" data-aos-anchor-placement="top-bottom"> Brilliant Designer. </h1>
+                        <h1 class="title" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="100"> Brilliant Designs. </h1>
+                        <h5  class="fadeInUp wow sub-hdr" data-wow-delay=".8s">UI/UX Designer. Front-end developer. From Cebu City, Philippines!</h5>
                     </div>
                 </div>
             </div>
@@ -140,11 +133,11 @@
     <!-- Start of Services -->
     <div class="srvce" id="service">
         <div class="w960 grid srvc-con">
-            <div class="c4">
+            <div class="c4" data-aos="fade-up" data-aos-delay="100">
                 <h2 class="fw-bold"> WHAT I DO. WHAT I OFFER </h2>
             </div>
 
-            <div class="c8">
+            <div class="c8" data-aos="fade-up" data-aos-delay="300">
                 <p class="clear">
                     I can finish projects right before the time you expected it to get done! You will never see it coming and just get surprised how things happen so fast!
                     I create genius concepts that makes an obvious relevance to your business! From Flat to Realism to Minimalism, I can do all that for you.
@@ -155,7 +148,7 @@
 
     <div class="service-section">
         <div class="w1600 grid">
-            <div class="c4 wow fadeIn" data-wow-delay=".3s">
+            <div class="c4" data-aos="fade-in" data-aos-delay="200">
                 <div class="service-wrapper blue">
                     <img src="img/graphic-designs.png" alt="">
                 </div>
@@ -167,7 +160,7 @@
                 </p>
             </div>
 
-            <div class="c4 wow fadeIn" data-wow-delay=".5s">
+            <div class="c4"data-aos="fade-in" data-aos-delay="400">
                 <div class="service-wrapper orange">
                     <img src="img/branding.png" alt="">
                 </div>
@@ -179,7 +172,7 @@
                 </p>
             </div>
 
-            <div class="c4 wow fadeIn" data-wow-delay=".7s">
+            <div class="c4" data-aos="fade-in" data-aos-delay="600">
                 <div class="service-wrapper purple">
                     <img src="img/web.png" alt="">
                 </div>
@@ -201,7 +194,7 @@
 
     <!-- Start of Works -->
     <div class="w1600 grid" id="works">
-       <div class="works-section row wow fadeIn"  data-wow-delay=".7s">
+       <div class="works-section row"  data-aos="fade-in" data-aos-delay="300">
             <div class="c8 clear">
                 <img src="img/gw-dash.jpg" alt="">
             </div>
@@ -223,7 +216,7 @@
             </div>
        </div> 
 
-       <div class="works-section row wow fadeIn gray-bg"  data-wow-delay=".7s">
+       <div class="works-section row" data-aos="fade-in" data-aos-delay="200">
             <div class="c8 clear">
                 <img src="img/vops-informative.jpg" alt="">
             </div>
@@ -246,7 +239,7 @@
             </div>
        </div>
 
-       <div class="works-section row wow fadeIn gray-bg"  data-wow-delay=".7s">
+       <div class="works-section row"  data-aos="fade-in" data-aos-delay="200">
             <div class="c8 clear">
                 <img src="img/icons.jpg" alt="">
             </div>
@@ -267,7 +260,7 @@
             </div>
        </div> 
 
-       <div class="works-section row wow fadeIn gray-bg"  data-wow-delay=".7s">
+       <div class="works-section row" data-aos="fade-in" data-aos-delay="200">
             <div class="c8 clear">
                 <img src="img/market-websites.jpg" alt="">
             </div>
@@ -288,7 +281,7 @@
             </div>
        </div> 
 
-       <div class="works-section row wow fadeIn gray-bg"  data-wow-delay=".7s">
+       <div class="works-section row"  data-aos="fade-in" data-aos-delay="200">
             <div class="c8 clear">
                 <img src="img/logo-collections.jpg" alt="">
             </div>
@@ -342,9 +335,8 @@
     
 
     <!-- ================ Scripts ================ -->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/aos.js"></script>
     <script src="js/slide.js"></script>
-    <script src="js/jquery.min.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/smoothscroll.js"></script>
