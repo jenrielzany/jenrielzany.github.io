@@ -86,7 +86,7 @@
            </span>
 
            <span>
-                <a href="./img/jenriel-resume.pdf" download> 
+                <a href="./img/jenriel-resume-purple.pdf" download> 
                     <button>DOWNLOAD CV</button>
                 </a>
            </span>
