@@ -56,11 +56,11 @@
     <div class="wfull grid" id="slide-menu">
         <ul class="c6">
             <h1>MAIN MENU</h1>
-            <li data-aos="fade-in" data-aos-delay="1000" > <a href="#home">Home</a> 
+            <li data-aos="fade-in" data-aos-delay="1000" > <a href="#home">Home</a>
             </li>
-            <li data-aos="fade-in" data-aos-delay="1000" > <a href="#service"> Service</a> 
+            <li data-aos="fade-in" data-aos-delay="1000" > <a href="#service"> Service</a>
             </li>
-            <li data-aos="fade-in" data-aos-delay="1000" > <a href="#works">Works</a> 
+            <li data-aos="fade-in" data-aos-delay="1000" > <a href="#works">Works</a>
             </li>
             <li data-aos="fade-in" data-aos-delay="1000" > <a href="#about">About</a>
             </li>
@@ -70,12 +70,12 @@
         <div class="c6 contact">
            <h1> HIT MY INBOX </h1>
            <p>jenrielzany@gmail.com </p>
-           <p>+63 932 110 0258</p>
+           <p>+63 943 062 9274</p>
 
            <h1> MY LOCATION </h1>
            <p> Unit IV Brgy. OPRRA Kalunasan,</p>
            <p> Cebu City, PH 6000</p>
-            
+
             <span>
                 <h5> GET TO KNOW ME MORE </h5>
 
@@ -86,14 +86,14 @@
            </span>
 
            <span>
-                <a href="./img/jenriel-resume-purple.pdf" download> 
+                <a href="./img/jenriel-resume-purple.pdf" download>
                     <button>DOWNLOAD CV</button>
                 </a>
            </span>
 
         </div>
     </div>
-    
+
     <!-- Content panel -->
     <div id="content">
         <div class="menu-trigger" data-wow-delay=".5s">
@@ -107,7 +107,7 @@
         <img src="img/logo.png" alt="">
     </div>
     <!-- ======= End of Slider Menu on Mobile ========= -->
-    
+
     <!-- Start of Header -->
     <div class="main-hdr" data-wow-delay=".8s" id="home">
         <div class="w1600 grid">
@@ -115,7 +115,7 @@
                 <div class="hdr-con">
                     <div class="header-bg fadeIn wow" data-wow-delay="1s"></div>
                         <div class="header-overlay fadeIn wow" data-wow-delay=".5s"></div>
-                    <div class="c10 text-left">  
+                    <div class="c10 text-left">
                         <h1 class="title" data-aos="fade-up" data-aos-anchor-placement="top-bottom"> Brilliant Designer. </h1>
                         <h1 class="title" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="100"> Brilliant Designs. </h1>
                         <h5  class="fadeInUp wow sub-hdr" data-wow-delay=".8s">UI/UX Designer. Front-end developer. From Cebu City, Philippines!</h5>
@@ -198,8 +198,8 @@
             <div class="c8 clear">
                 <img src="img/gw-dash.jpg" alt="">
             </div>
-            
-            
+
+
             <div class="c4">
                 <div class="works-contents">
                     <h2>
@@ -214,14 +214,14 @@
                     <a href="https://www.behance.net/gallery/29179505/Greenwire-Outsourcing-Inc-Internal-Dashboard" target="_blank"><button> VIEW PROJECT </button></a>
                 </div>
             </div>
-       </div> 
+       </div>
 
        <div class="works-section row" data-aos="fade-in" data-aos-delay="200">
             <div class="c8 clear">
                 <img src="img/vops-informative.jpg" alt="">
             </div>
-            
-            
+
+
             <div class="c4">
                 <div class="works-contents">
                     <h2>
@@ -243,8 +243,8 @@
             <div class="c8 clear">
                 <img src="img/icons.jpg" alt="">
             </div>
-            
-            
+
+
             <div class="c4">
                 <div class="works-contents">
                     <h2>
@@ -258,14 +258,14 @@
                     <a href="https://dribbble.com/jenriel_zny"><button> VIEW PROJECT </button></a>
                 </div>
             </div>
-       </div> 
+       </div>
 
        <div class="works-section row" data-aos="fade-in" data-aos-delay="200">
             <div class="c8 clear">
                 <img src="img/market-websites.jpg" alt="">
             </div>
-            
-            
+
+
             <div class="c4">
                 <div class="works-contents">
                     <h2>
@@ -279,14 +279,14 @@
                     <a href="https://www.behance.net/gallery/28957473/Product-Marketing-Websites"><button> VIEW PROJECT </button></a>
                 </div>
             </div>
-       </div> 
+       </div>
 
        <div class="works-section row"  data-aos="fade-in" data-aos-delay="200">
             <div class="c8 clear">
                 <img src="img/logo-collections.jpg" alt="">
             </div>
-            
-            
+
+
             <div class="c4">
                 <div class="works-contents">
                     <h2>
@@ -300,7 +300,7 @@
                     <a href="https://dribbble.com/jenriel_zny"><button> VIEW PROJECT </button></a>
                 </div>
             </div>
-       </div> 
+       </div>
     </div>
 
     <div class="w1600 grid quick-links">
@@ -317,7 +317,7 @@
         </div>
     </div>
     <!-- End of Works -->
-    
+
     <!-- Start of Footer -->
     <div class="about-con" id="about">
         <div class="w1600 grid">
@@ -332,7 +332,7 @@
     </div>
     <!-- Start of Footer -->
 
-    
+
 
     <!-- ================ Scripts ================ -->
     <script src="js/aos.js"></script>
