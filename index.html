@@ -1,348 +1,261 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
-<!-- Consider adding a manifest.appcache: h5bp.com/d/Offline -->
-<!--[if gt IE 8]><!-->
-<html class="no-js" lang="en">
-<!--<![endif]-->
+<html lang="en">
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Zany Graphics &amp; Designs</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Web Designers Boilerplate">
+        <meta name="author" content="">
 
-    <link rel="stylesheet" href="min-css/layout.min.css">
-    <link rel="stylesheet" href="min-css/font-awesome.min.css">
-    <link rel="stylesheet" href="min-css/aos.min.css">
-    <link rel="shortcut icon" href="img/favicon.png" />
+        <title>Jenriel Zany</title>
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+              integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <link href="./css/app.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.green.css">
+        <link rel="shortcut icon" href="images/favicon.ico" />
 
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="js/jquery.min.js"></script>
-</head>
+        <!-- Scripts -->
+        <script src="./js/vendors-min.js"></script>
+        <script src="./js/app-min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    </head>
 
-<body>
-
-<!-- <a href="http://webguruawards.com/user/details/ZanyGraphicsandDesigns-261" style="background: url(http://webguruawards.com/awards/GOTD/img_guru_of_the_day_right.png) no-repeat scroll 0 0 rgba(0, 0, 0, 0);width:75px;height:117px;position:fixed;top:70px;right:0;z-index:99999;" target="_blank"></a> -->
-    <!-- ==========Side Circle Selectors ========== -->
-   <!--  <div class="circle-selectors wow fadeIn" data-wow-delay="1s">
-        <ul class="circles">
-            <li>
-                <a href="#home">
-                    <div class="dots"></div>
-                </a>
-            </li>
-            <li>
-                <a href="#service">
-                    <div class="dots"></div>
-                </a>
-            </li>
-            <li>
-                <a href="#works">
-                    <div class="dots"></div>
-                </a>
-            </li>
-            <li>
-                <a href="#about">
-                    <div class="dots"></div>
-                </a>
-            </li>
-        </ul>
-    </div> -->
-
-    <!-- ======= Slider Menu on Mobile ========= -->
-    <div class="wfull grid" id="slide-menu">
-        <ul class="c6">
-            <h1>MAIN MENU</h1>
-            <li data-aos="fade-in" data-aos-delay="1000" > <a href="#home">Home</a>
-            </li>
-            <li data-aos="fade-in" data-aos-delay="1000" > <a href="#service"> Service</a>
-            </li>
-            <li data-aos="fade-in" data-aos-delay="1000" > <a href="#works">Works</a>
-            </li>
-            <li data-aos="fade-in" data-aos-delay="1000" > <a href="#about">About</a>
-            </li>
-        </ul>
-
-
-        <div class="c6 contact">
-           <h1> HIT MY INBOX </h1>
-           <p>jenrielzany@gmail.com </p>
-           <p>+63 943 062 9274</p>
-
-           <h1> MY LOCATION </h1>
-           <p> Unit IV Brgy. OPRRA Kalunasan,</p>
-           <p> Cebu City, PH 6000</p>
-
-            <span>
-                <h5> GET TO KNOW ME MORE </h5>
-
-               <a href="https://www.behance.net/zanygd" target="_blank"> Behance </a>
-               <a href="https://github.com/jenrielzany" target="_blank"> Github </a>
-               <a href="https://www.facebook.com/jenrielzany" target="_blank"> Facebook </a>
-               <a href="https://dribbble.com/jenriel_zny" target="_blank"> Dribbble </a>
-           </span>
-
-           <span>
-                <a href="./img/jenriel-resume-purple.pdf" download>
-                    <button>DOWNLOAD CV</button>
-                </a>
-           </span>
-
+    <body>
+        <section class="nav-menu"
+                 data-aos="fade-in"
+                 data-aos-easing="ease-out-cubic"
+                 data-aos-delay="1000">
+            <img src="/images/z-logo.svg" alt="">
+            <button class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+            </button>
+        </section>
+        <div class="menu-wrapper">
+            <nav class="main-menu">
+                <p>main menu</p>
+                <ul>
+                    <li class="home open-section" data-section="home">Home</li>
+                    <li class="services" data-section="services">Services</li>
+                    <li class="works" data-section="works">Works</li>
+                    <li class="about" data-section="about">About</li>
+                </ul>
+            </nav>
         </div>
-    </div>
 
-    <!-- Content panel -->
-    <div id="content">
-        <div class="menu-trigger" data-wow-delay=".5s">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
+        <div class="section-wrapper show" data-index="home">
+            <section class="home">
+                <blockquote class="header">
+                    <div class="name"
+                         data-aos="fade-in"
+                         data-aos-easing="ease-out-cubic"
+                         data-aos-delay="400">
+                        <h1>Zany</h1>
+                    </div>
+                    <div class="name">
+                        <h1 data-aos="fade-in"
+                            data-aos-easing="ease-out-cubic"
+                            data-aos-delay="800">Jadraque.</h1>
+                        <div class="line-container"
+                             data-aos="fade-right"
+                             data-aos-easing="ease-out-cubic"
+                             data-aos-delay="1000">
+                            <div class="thin">
+                                <div class="thick"></div>
+                            </div>
+                        </div>
+                        <p data-aos="fade-in"
+                            data-aos-easing="ease-out-cubic"
+                            data-aos-delay="600">UI/UX Designer from Cebu, Philippines</p>
+                    </div>
+                </blockquote>
+                <div class="box"
+                     data-aos="fade-right"
+                     data-aos-delay="300"
+                     data-aos-offset="0">
+                </div>
+                <div class="box"
+                     data-aos="fade-left"
+                     data-aos-easing="ease-out-cubic"
+                     data-aos-delay="1000">
+
+                    <h1>Brilliant</h1>
+                    <h1>Designs</h1>
+                </div>
+
+                <div class="scroll">
+                    Hello there!
+                    <div class="scroll-line"></div>
+                </div>
+            </section>
         </div>
-    </div>
 
-    <div class="logo-holder fadeIn wow" data-wow-delay=".5s">
-        <img src="img/logo.png" alt="">
-    </div>
-    <!-- ======= End of Slider Menu on Mobile ========= -->
+        <div class="section-wrapper" data-index="services">
+            <section class="services">
+                <div class="service-list">
+                    <div class="single">
+                       <div class="service-box">
+                           <div class="overlay">
+                               <h1>Web UI/UX</h1>
+                               <p>Clean, easy to navigate and content-focused web design is the main goal. Easy for the user, easy for me! We don't have to do painful stuffs that doesn't make sense.</p>
+                           </div>
+                           <img src="/images/new/web.png" alt="">
+                       </div>
+                    </div>
+                    <div class="double">
+                       <div class="service-box">
+                           <div class="text">
+                               <h1>Illustrations</h1>
+                               <p>Top of the line graphical designs in different variations that enables me to incorporate my talent to whatever you want.</p>
+                           </div>
+                           <img src="/images/new/graphic-designs.png" alt="">
+                       </div>
+                       <div class="service-box">
+                           <div class="text">
+                               <h1>Branding</h1>
+                               <p>Minimalism, realism and trendy identity is always in my bucket list in creating my brands. All you have to do is say the words and we'll take it from there.</p>
+                           </div>
+                           <img src="/images/new/branding.png" alt="">
+                       </div>
+                    </div>
+                    <h1 class="floater">Services</h1>
+                </div>
+            </section>
+        </div>
 
-    <!-- Start of Header -->
-    <div class="main-hdr" data-wow-delay=".8s" id="home">
-        <div class="w1600 grid">
-            <div class="row">
-                <div class="hdr-con">
-                    <div class="header-bg fadeIn wow" data-wow-delay="1s"></div>
-                        <div class="header-overlay fadeIn wow" data-wow-delay=".5s"></div>
-                    <div class="c10 text-left">
-                        <h1 class="title" data-aos="fade-up" data-aos-anchor-placement="top-bottom"> Brilliant Designer. </h1>
-                        <h1 class="title" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="100"> Brilliant Designs. </h1>
-                        <h5  class="fadeInUp wow sub-hdr" data-wow-delay=".8s">UI/UX Designer. Front-end developer. From Cebu City, Philippines!</h5>
+        <div class="section-wrapper" data-index="works">
+            <section class="works">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="preview">
+                            <img src="/images/new/muscle.jpg" alt="">
+                        </div>
+                        <div class="content-box">
+                            <h1>Muscle Product Lander</h1>
+                            <p>
+                                A landing page for a product my team is currently working on for the past few weeks. A supplement for people working out doing Crossfit to help them have more endurance and spend more hours at the gym.
+                            </p>
+                            <button class="view">
+                                View Project
+                            </button>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="preview">
+                            <img src="/images/new/hobby-app.jpg" alt="">
+                        </div>
+                        <div class="content-box">
+                            <h1>The Hobby App</h1>
+                            <p>
+                                A quick hobby platform to be able to communicate other people around the globe with other hobbyist the same as yours. From Food to Travels to Clothes. It's never gonna be boring again, doing your hobby!
+                            </p>
+                            <button class="view">
+                                View Project
+                            </button>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="preview">
+                            <img src="/images/new/traveler.jpg" alt="">
+                        </div>
+                        <div class="content-box">
+                            <h1>Travelers Icon Pack</h1>
+                            <p>
+                                Just a quick illustration of traveler's most common needs. I had some spare time to just doodle around gradients and shapes and thought it would a good idea to create some illustration like this. You, what stuff do you bring with you whn you travel?
+                            </p>
+                            <button class="view">
+                                View Project
+                            </button>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="preview">
+                            <img src="/images/new/txtflo.png" alt="">
+                        </div>
+                        <div class="content-box">
+                            <h1>Promotional Landing Page</h1>
+                            <p>
+                                A lander I made a couple of months ago for a texting app. The main purpose of the app is to help market products and manage them throught text automation and other stuff to help businesses make their lives a lot easier.                                  
+                            </p>
+                            <button class="view">
+                                View Project
+                            </button>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="preview">
+                            <img src="/images/new/presentation.jpg" alt="">
+                        </div>
+                        <div class="content-box">
+                            <h1>Eventures App for Creating Events</h1>
+                            <p>
+                                An app I did for creating and finding events online. An easier way to track dates, type of event, where it will happen and everything you need is here.
+                            </p>
+                            <button class="view">
+                                View Project
+                            </button>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="preview">
+                            <img src="/images/new/ui.jpg" alt="">
+                        </div>
+                        <div class="content-box">
+                            <h1>Web App Dashboard</h1>
+                            <p>
+                                I quick dashboard I created for a texting app my team is currently working on. This is mass texting app that enables you to send a single message to multiple contacts/leads.
+                            </p>
+                            <button class="view">
+                                View Project
+                            </button>
+                        </div>
                     </div>
                 </div>
-            </div>
+                <h1 class="floater">Works</h1>
+            </section>
         </div>
+        <div class="section-wrapper" data-index="about">
+            <section class="about">
+                <div class="profile-holder">
+                    <img src="/images/new/profile.jpg" alt="">
+                </div>
+                <div class="profile-details">
+                    <div class="info-stack">
+                        <h1 class="name"> Jenriel Jadraque </h1>
+                        <h2 class="desc"> Web UI/UX Designer, Front-end Developer </h2>
+                    </div>
+                    <div class="text-stack">
+                        <p class="label"> Hiy My Inbox</p>
+                        <p class="text">jenrielzany@gmail.com</p>
+                        <p class="text"> +63 943 062 9274 </p>
+                    </div>
+                    <div class="text-stack">
+                        <p class="label"> My Location </p>
+                        <p class="text">Unit IV Brgy. OPRRA Kalunasan,</p>
+                        <p class="text"> Cebu City, PH 6000 </p>
+                    </div>
 
-        <div class="mouse">
-            <div class="mouse-wheel"></div>
+                    <div class="text-stack">
+                        <p class="label"> Get to know me more </p>
+                        <div class="portfolios">
+                            <button>Behance</button>
+                            <button>Dribbble</button>
+                            <button>Unsplash</button>
+                            <button>Github</button>
+                            <button>Facebook</button>
+                        </div>
+                    </div>
+                    <a class="cv" href="./img/jenriel-resume-purple.pdf" download="">
+                        <button>DOWNLOAD CV</button>
+                    </a>
+                </div>
+                    <h1 class="floater">About</h1>
+            </section>
         </div>
-    </div>
-    <!-- End of Header -->
-
-    <!-- Start of Services -->
-    <div class="srvce" id="service">
-        <div class="w960 grid srvc-con">
-            <div class="c4" data-aos="fade-up" data-aos-delay="100">
-                <h2 class="fw-bold"> WHAT I DO. WHAT I OFFER </h2>
-            </div>
-
-            <div class="c8" data-aos="fade-up" data-aos-delay="300">
-                <p class="clear">
-                    I can finish projects right before the time you expected it to get done! You will never see it coming and just get surprised how things happen so fast!
-                    I create genius concepts that makes an obvious relevance to your business! From Flat to Realism to Minimalism, I can do all that for you.
-                </p>
-            </div>
-        </div>
-    </div>
-
-    <div class="service-section">
-        <div class="w1600 grid">
-            <div class="c4" data-aos="fade-in" data-aos-delay="200">
-                <div class="service-wrapper blue">
-                    <img src="img/graphic-designs.png" alt="">
-                </div>
-
-                <h3> GRAPHICS AND DESIGNS</h3>
-                <p>
-                    Top of the line graphical designs in different variations that enables me to incorporate my
-                    talent to whatever you want.
-                </p>
-            </div>
-
-            <div class="c4"data-aos="fade-in" data-aos-delay="400">
-                <div class="service-wrapper orange">
-                    <img src="img/branding.png" alt="">
-                </div>
-
-                <h3> BRANDING </h3>
-                <p>
-                    Minimalism, realism and trendy identity is always in my bucket list in creating my brands. All you have
-                    to do is say the words and we'll take it from there.
-                </p>
-            </div>
-
-            <div class="c4" data-aos="fade-in" data-aos-delay="600">
-                <div class="service-wrapper purple">
-                    <img src="img/web.png" alt="">
-                </div>
-
-                <h3> SLICK WEB UI/UX</h3>
-                <p>
-                    Clean, easy to navigate and content-focused web design is the main goal. Easy for the user, easy for me!
-                    We don't have to do painful stuffs that doesn't make sense.
-                </p>
-            </div>
-
-            <div class="mouse">
-                <div class="mouse-wheel"></div>
-                <p class="text-center"> Keep scrolling! </p>
-            </div>
-        </div>
-    </div>
-    <!-- End of Services -->
-
-    <!-- Start of Works -->
-    <div class="w1600 grid" id="works">
-       <div class="works-section row"  data-aos="fade-in" data-aos-delay="300">
-            <div class="c8 clear">
-                <img src="img/gw-dash.jpg" alt="">
-            </div>
-
-
-            <div class="c4">
-                <div class="works-contents">
-                    <h2>
-                        Green Wire Internal<br>
-                        Dashboard.
-                    </h2>
-
-                    <p>
-                        The main function of the app is that agents are able to know and get updates of their performance in the company.
-                    </p>
-
-                    <a href="https://www.behance.net/gallery/29179505/Greenwire-Outsourcing-Inc-Internal-Dashboard" target="_blank"><button> VIEW PROJECT </button></a>
-                </div>
-            </div>
-       </div>
-
-       <div class="works-section row" data-aos="fade-in" data-aos-delay="200">
-            <div class="c8 clear">
-                <img src="img/vops-informative.jpg" alt="">
-            </div>
-
-
-            <div class="c4">
-                <div class="works-contents">
-                    <h2>
-                        Verticalops<br>
-                        Informative Website.
-                    </h3>
-
-                    <p>
-                        Just a simple informative website for Verticalops. Made this about 3 years ago.
-                         They have an amazing technology to offer and clients cannot say NO to them.
-                    </p>
-
-                    <a href="http://verticalops.com/"><button> VIEW PROJECT </button></a>
-                </div>
-            </div>
-       </div>
-
-       <div class="works-section row"  data-aos="fade-in" data-aos-delay="200">
-            <div class="c8 clear">
-                <img src="img/icons.jpg" alt="">
-            </div>
-
-
-            <div class="c4">
-                <div class="works-contents">
-                    <h2>
-                        Illustrations.
-                    </h2>
-
-                    <p>
-                        As part of my learning curve. I have made several illustrations and these are some of them.
-                    </p>
-
-                    <a href="https://dribbble.com/jenriel_zny"><button> VIEW PROJECT </button></a>
-                </div>
-            </div>
-       </div>
-
-       <div class="works-section row" data-aos="fade-in" data-aos-delay="200">
-            <div class="c8 clear">
-                <img src="img/market-websites.jpg" alt="">
-            </div>
-
-
-            <div class="c4">
-                <div class="works-contents">
-                    <h2>
-                        Marketing Websites.
-                    </h2>
-
-                    <p>
-                        There are couple of these pages. The main purpose of these pages is to sell products on Traffic and to be entertained by the call center.
-                    </p>
-
-                    <a href="https://www.behance.net/gallery/28957473/Product-Marketing-Websites"><button> VIEW PROJECT </button></a>
-                </div>
-            </div>
-       </div>
-
-       <div class="works-section row"  data-aos="fade-in" data-aos-delay="200">
-            <div class="c8 clear">
-                <img src="img/logo-collections.jpg" alt="">
-            </div>
-
-
-            <div class="c4">
-                <div class="works-contents">
-                    <h2>
-                        Logo Collections.
-                    </h2>
-
-                    <p>
-                        I have some collections of logos and other fun illustrations I made a couple of years ago.
-                    </p>
-
-                    <a href="https://dribbble.com/jenriel_zny"><button> VIEW PROJECT </button></a>
-                </div>
-            </div>
-       </div>
-    </div>
-
-    <div class="w1600 grid quick-links">
-        <div class="row">
-            <div class="c4">
-            </div>
-
-            <div class="c8">
-                <h2 class="fw-bold"> CHECK PROJECTS FROM </h2>
-                <a href="https://dribbble.com/jenriel_zny" target="_blank"><button> <i class="fa fa-dribbble"></i> Dribble  </button></a>
-                <a href="https://www.behance.net/zanygd" target="_blank"><button> <i class="fa fa-behance"></i> Behance  </button></a>
-                <a href="https://unsplash.com/@jenrielzany" target="_blank"><button> <i class="fa fa-camera"></i> Unsplash  </button></a>
-            </div>
-        </div>
-    </div>
-    <!-- End of Works -->
-
-    <!-- Start of Footer -->
-    <div class="about-con" id="about">
-        <div class="w1600 grid">
-            <div class="c6">
-                <h6>Copyright &copy; 2018. Zany Graphics and Designs. All Rights Reserved.</h6>
-            </div>
-
-            <div class="c6">
-                <p>Everything is made with Passion and Love <i class="fa fa-heart red"></i></p>
-            </div>
-        </div>
-    </div>
-    <!-- Start of Footer -->
-
-
-
-    <!-- ================ Scripts ================ -->
-    <script src="js/aos.js"></script>
-    <script src="js/slide.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/smoothscroll.js"></script>
-    <script>
-        new WOW().init();
-    </script>
-</body>
-
+    </body>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 </html>
